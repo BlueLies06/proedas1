@@ -57,7 +57,10 @@
 
   intro.addEventListener("click", (e) => {
     if (!e.target.closest("#go")) return;
-    const preguntas = shuffle(preguntasDe(uni)).slice(0, 20);
+    // Las preguntas que comparten una lectura ("texto") van juntas y en su orden.
+    const grupos = new Map();
+    preguntasDe(uni).forEach((q) => { const k = q.texto || q.id; grupos.set(k, [...(grupos.get(k) || []), q]); });
+    const preguntas = shuffle([...grupos.values()]).flat().slice(0, 20);
     start.hidden = true; quizEl.hidden = false;
     window.AstrosQuiz.mount(quizEl, {
       preguntas, titulo: `Simulacro ${uni}`,
