@@ -286,8 +286,18 @@ main .hero { overflow-x: clip; }
 .switch input:checked + i::after { transform: translateX(22px); }
 .switch input:focus-visible + i { outline: 2px solid var(--gold); outline-offset: 2px; }
 
-.plans { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.plan { padding: 18px 16px; display: grid; gap: 6px; align-content: start; transition: transform .3s; }
+.plans { display: grid; gap: 12px; }
+.plans-empty { padding: 18px; color: var(--muted); }
+.plans-empty a { color: var(--gold); }
+.plan {
+  padding: 16px 18px; display: grid; gap: 2px 12px; align-items: center;
+  grid-template-columns: 1fr auto; grid-template-areas: "top price" "top ph" "btn btn";
+}
+.plan-top { grid-area: top; min-width: 0; }
+.plan-name { font: 600 1.08rem/1.2 var(--f-body); color: var(--white); }
+.plan .plan-price { grid-area: price; justify-self: end; }
+.plan .plan-ph { grid-area: ph; justify-self: end; text-align: right; }
+.plan .btn { grid-area: btn; }
 .plan.featured { border-color: rgba(247,191,79,.6); box-shadow: var(--shadow), 0 0 0 1px rgba(247,191,79,.25), 0 0 40px -10px rgba(247,191,79,.5), inset 0 1px 0 var(--glass-hi); }
 .plan .badge {
   position: absolute; top: -10px; right: 12px; font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
@@ -295,13 +305,24 @@ main .hero { overflow-x: clip; }
 }
 .plan-h { font: 400 2.4rem/1 var(--f-display); color: var(--white); letter-spacing: .02em; }
 .plan-h small { font-size: 1.1rem; color: var(--muted); margin-left: 2px; }
-.plan-use { font-size: .8rem; color: var(--muted); min-height: 2.4em; line-height: 1.25; }
-.plan-price { font: 700 1.5rem/1 var(--f-body); color: var(--gold); margin-top: 6px; }
+.plan-use { font-size: .85rem; color: var(--muted); line-height: 1.3; margin-top: 2px; }
+.plan-price { font: 700 1.6rem/1 var(--f-body); color: var(--gold); font-variant-numeric: tabular-nums; }
 .plan-price sup { font-size: .8rem; font-weight: 600; margin-right: 2px; vertical-align: .55em; }
 .plan-ph { font-size: .78rem; color: #bff3ef; }
 .plan .btn { margin-top: 10px; min-height: 40px; font-size: .88rem; padding: 0 .8rem; }
 .price-swap { animation: pop .35s ease; }
-.fine { margin-top: 16px; color: var(--muted); font-size: .85rem; }
+.fine { margin: 18px 0 0; padding-left: 1.1rem; color: var(--muted); font-size: .88rem; display: grid; gap: 4px; }
+.fine b { color: var(--text); }
+.fine li:empty { display: none; }
+.extras { display: grid; gap: 12px; margin-top: 14px; }
+.extra { padding: 18px; }
+.extra h3 { font: 400 1.6rem/1 var(--f-display); letter-spacing: .03em; color: var(--white); }
+.extra .muted { font-size: .88rem; margin: 4px 0 12px; }
+.group-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.group-row div { flex: 1 1 120px; display: grid; padding: 12px 14px; border-radius: 16px; background: rgba(25,168,160,.12); border: 1px solid rgba(25,168,160,.35); }
+.group-row b { font-size: 1.3rem; color: var(--gold); font-variant-numeric: tabular-nums; }
+.group-row span { font-size: .8rem; color: var(--muted); }
+.extra .link-arrow { margin-top: 12px; }
 
 /* ---------- Docente ---------- */
 .teacher { padding: 24px; display: grid; gap: 16px; align-items: center; overflow: hidden; }
@@ -405,8 +426,13 @@ main .hero { overflow-x: clip; }
   .card { grid-template-columns: 1fr; text-align: left; }
   .card img { grid-row: auto; width: 96px; margin-bottom: 8px; }
   .benefits { grid-template-columns: repeat(3, 1fr); }
-  .plans { grid-template-columns: repeat(4, 1fr); }
-  .plan-controls { grid-template-columns: 1fr auto; align-items: center; }
+  .plans { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .plan { grid-template-columns: 1fr; grid-template-areas: "top" "price" "ph" "btn"; grid-template-rows: 1fr auto auto auto; gap: 6px; padding: 20px 18px; }
+  .plan .plan-price, .plan .plan-ph { justify-self: start; text-align: left; }
+  .plan .plan-price { margin-top: 10px; }
+  .plan .btn { margin-top: 12px; }
+  .plan-controls { grid-template-columns: 1fr 1fr; align-items: center; }
+  .extras { grid-template-columns: 1fr 1fr; }
   .uni-grid { grid-template-columns: repeat(4, 1fr); }
   .topics { grid-template-columns: 1fr 1fr; }
   .teacher { grid-template-columns: 220px 1fr; padding: 32px; }

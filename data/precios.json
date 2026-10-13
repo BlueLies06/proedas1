@@ -1,0 +1,37 @@
+{
+  "actualizado": "2026-10-13",
+  "moneda": "S/",
+  "recargos_por_hora": { "virtual": 0, "presencial": 10, "domicilio": 15 },
+  "niveles": {
+    "escolar": {
+      "nombre": "Escolar",
+      "productos": [
+        { "nombre": "Hora suelta", "horas": 1, "precio": 40, "detalle": "Para una duda o tarea puntual" },
+        { "nombre": "Pack 8 h", "horas": 8, "precio": 280, "detalle": "1 mes, 2 h por semana", "destacado": true },
+        { "nombre": "Pack 16 h", "horas": 16, "precio": 512, "detalle": "1 mes, 4 h por semana" }
+      ],
+      "grupo": { "2-3": 28, "4-6": 22 }
+    },
+    "pre": {
+      "nombre": "Pre",
+      "productos": [
+        { "nombre": "Hora suelta", "horas": 1, "precio": 50, "detalle": "Refuerza un tema del examen" },
+        { "nombre": "Pack 12 h", "horas": 12, "precio": 540, "detalle": "Repaso enfocado por curso" },
+        { "nombre": "Programa mensual 24 h", "horas": 24, "precio": 960, "detalle": "Con simulacro y seguimiento", "destacado": true }
+      ],
+      "grupo": { "2-3": 35, "4-6": 28 }
+    },
+    "univ": {
+      "nombre": "Universidad",
+      "productos": [
+        { "nombre": "Hora suelta", "horas": 1, "precio": 60, "detalle": "Para una duda o ejercicio" },
+        { "nombre": "Práctica", "horas": 4, "precio": 220, "detalle": "Preparación para 1 práctica" },
+        { "nombre": "Examen", "horas": 8, "precio": 400, "detalle": "Preparación para 1 examen" },
+        { "nombre": "Medio ciclo", "horas": 16, "precio": 760, "detalle": "2 prácticas + 1 examen" },
+        { "nombre": "Ciclo completo", "horas": 32, "precio": 1440, "detalle": "4 prácticas + 2 exámenes", "destacado": true }
+      ],
+      "grupo": { "2-3": 40, "4-6": 32 }
+    }
+  },
+  "taller": { "nombre": "Taller intensivo pre-examen", "horas": 3, "precio_por_alumno": 49, "detalle": "Repaso final en grupo, por curso y universidad" }
+}

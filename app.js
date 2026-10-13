@@ -4,48 +4,73 @@
   document.documentElement.classList.add("js");
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // ---------- Precios (S/.) por paquete ----------
-  // Fuente: "PRECIOS ASTROS II". Editar aquí para actualizar la web.
-  const PRICES = {
-    ind: { virtual: [169, 389, 679, 1159], presencial: [199, 439, 779, 1339] },
-    g2:  { virtual: [149, 319, 539, 859],  presencial: [169, 369, 639, 1039] },
-    g7:  { virtual: [119, 249, 399, 639],  presencial: [149, 299, 499, 819] },
-  };
-  const HOURS = [4, 10, 20, 40];
-  const USES = [
-    "Para una práctica o laboratorio",
-    "Para un examen o proyecto",
-    "Para medio ciclo o mes y medio",
-    "Para un ciclo completo o trimestre",
-  ];
-  const CAP_LABEL = { ind: "individual", g2: "grupal de 2 a 6 alumnos", g7: "grupal de 7 a 10 alumnos" };
-  const FEATURED = 2; // 20 horas
-
-  let cap = "ind";
-  let mode = "virtual";
+  // ---------- Tarifario ----------
+  // Los precios viven en data/precios.json (única fuente). Esta parte solo los muestra.
+  const MODE_LABEL = { virtual: "virtual", presencial: "presencial", domicilio: "a domicilio" };
   const plansEl = document.getElementById("plans");
+  const groupBox = document.getElementById("groupBox");
+  const tallerBox = document.getElementById("tallerBox");
+  const state = { nivel: "escolar", modo: "virtual" };
+  let DATA = null;
 
-  const fmt = (n) => n.toLocaleString("es-PE");
+  const fmt = (n) => n.toLocaleString("es-PE", { maximumFractionDigits: 1 });
+  const wa = (text) => `https://wa.me/${WA}?text=${encodeURIComponent(text)}`;
 
   function renderPlans() {
-    plansEl.innerHTML = HOURS.map((h, i) => {
-      const price = PRICES[cap][mode][i];
-      const perHour = (price / h).toFixed(price % h ? 1 : 0);
-      const msg = encodeURIComponent(
-        `Hola ASTROS, me interesa el paquete de ${h} horas (${CAP_LABEL[cap]}, ${mode}) de S/ ${fmt(price)}.`
-      );
+    if (!DATA) return;
+    const nivel = DATA.niveles[state.nivel];
+    const extra = DATA.recargos_por_hora[state.modo] || 0;
+    const modo = MODE_LABEL[state.modo];
+
+    plansEl.innerHTML = nivel.productos.map((p) => {
+      const price = p.precio + extra * p.horas;
+      const perHour = price / p.horas;
+      const msg = `Hola ASTROS, me interesa: ${nivel.nombre} · ${p.nombre} (${p.horas} h, ${modo}) de S/ ${fmt(price)}.`;
       return `
-        <article class="glass plan price-swap${i === FEATURED ? " featured" : ""}">
-          ${i === FEATURED ? '<span class="badge">Más elegido</span>' : ""}
-          <div class="plan-h">${h}<small>h</small></div>
-          <p class="plan-use">${USES[i]}</p>
+        <article class="glass plan price-swap${p.destacado ? " featured" : ""}">
+          ${p.destacado ? '<span class="badge">Recomendado</span>' : ""}
+          <div class="plan-top">
+            <h3 class="plan-name">${p.nombre}</h3>
+            <p class="plan-use">${p.detalle || ""}</p>
+          </div>
           <div class="plan-price"><sup>S/</sup>${fmt(price)}</div>
-          <p class="plan-ph">≈ S/ ${perHour} por hora</p>
-          <a class="btn ${i === FEATURED ? "btn-gold" : "btn-glass"}" href="https://wa.me/${WA}?text=${msg}" target="_blank" rel="noopener">Lo quiero</a>
+          <p class="plan-ph">${p.horas > 1 ? `${p.horas} h · ≈ S/ ${fmt(perHour)} por hora` : "por hora"}</p>
+          <a class="btn ${p.destacado ? "btn-gold" : "btn-glass"}" href="${wa(msg)}" target="_blank" rel="noopener">Lo quiero</a>
         </article>`;
     }).join("");
+
+    const g = nivel.grupo || {};
+    groupBox.innerHTML = `
+      <h3>Estudia en grupo</h3>
+      <p class="muted">Precio por alumno, por hora (${modo}).</p>
+      <div class="group-row">${Object.entries(g).map(([k, v]) => `
+        <div><b>S/ ${fmt(v + extra)}</b><span>${k.replace("-", " a ")} alumnos</span></div>`).join("")}
+      </div>
+      <a class="link-arrow" href="${wa(`Hola ASTROS, quiero armar un grupo (${nivel.nombre}, ${modo}).`)}" target="_blank" rel="noopener">Armar mi grupo →</a>`;
+
+    const t = DATA.taller;
+    tallerBox.hidden = !t;
+    if (t) tallerBox.innerHTML = `
+      <h3>${t.nombre}</h3>
+      <p class="muted">${t.detalle || ""}</p>
+      <div class="group-row"><div><b>S/ ${fmt(t.precio_por_alumno)}</b><span>por alumno · ${t.horas} h</span></div></div>
+      <a class="link-arrow" href="${wa(`Hola ASTROS, quiero info del ${t.nombre}.`)}" target="_blank" rel="noopener">Ver próximos talleres →</a>`;
+
     attachGlare(plansEl.querySelectorAll(".glass"));
   }
+
+  fetch("data/precios.json", { cache: "no-cache" })
+    .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+    .then((d) => {
+      DATA = d;
+      const el = document.getElementById("priceDate");
+      if (el && d.actualizado) {
+        const [y, m, day] = d.actualizado.split("-").map(Number);
+        el.textContent = "Precios actualizados al " + new Date(y, m - 1, day).toLocaleDateString("es-PE", { day: "numeric", month: "long", year: "numeric" }) + ".";
+      }
+      renderPlans();
+    })
+    .catch(() => { groupBox.hidden = true; tallerBox.hidden = true; });
 
   // ---------- Segmented controls (liquid thumb) ----------
   function placeThumb(seg) {
@@ -71,19 +96,11 @@
         document.querySelectorAll("[data-panel]").forEach((p) => (p.hidden = p.dataset.panel !== btn.dataset.tab));
       });
     } else {
-      setupSeg(seg, (btn) => { cap = btn.dataset.cap; renderPlans(); });
+      setupSeg(seg, (btn) => { state[seg.dataset.group] = btn.dataset.value; renderPlans(); });
     }
   });
   addEventListener("resize", () => document.querySelectorAll(".seg").forEach(placeThumb));
   document.fonts && document.fonts.ready.then(() => document.querySelectorAll(".seg").forEach(placeThumb));
-
-  // ---------- Virtual / Presencial ----------
-  const toggle = document.getElementById("modeToggle");
-  toggle.addEventListener("change", () => {
-    mode = toggle.checked ? "presencial" : "virtual";
-    document.querySelectorAll("[data-mode-label]").forEach((s) => s.classList.toggle("on", s.dataset.modeLabel === mode));
-    renderPlans();
-  });
 
   // ---------- Brillo del vidrio que sigue al dedo ----------
   function attachGlare(nodes) {
@@ -169,5 +186,4 @@
   }
 
   document.getElementById("year").textContent = new Date().getFullYear();
-  renderPlans();
 })();

@@ -179,28 +179,40 @@
     <!-- PLANES -->
     <section id="planes" class="section">
       <header class="section-head reveal">
-        <p class="eyebrow">Paquetes de horas</p>
+        <p class="eyebrow">Tarifario</p>
         <h2>Invierte en tu despegue</h2>
-        <p>Elige cuántas horas necesitas. Mientras más horas, menor precio por hora.</p>
+        <p>Elige tu nivel y cómo quieres estudiar. Mientras más horas, menor precio por hora.</p>
       </header>
 
       <div class="plan-controls reveal">
-        <div class="seg glass seg-sm" role="tablist" aria-label="Capacidad">
-          <button role="tab" aria-selected="true" data-cap="ind">Individual</button>
-          <button role="tab" aria-selected="false" data-cap="g2">Grupo 2–6</button>
-          <button role="tab" aria-selected="false" data-cap="g7">Grupo 7–10</button>
+        <div class="seg glass seg-sm" role="tablist" aria-label="Nivel" data-group="nivel">
+          <button role="tab" aria-selected="true" data-value="escolar">Escolar</button>
+          <button role="tab" aria-selected="false" data-value="pre">Pre</button>
+          <button role="tab" aria-selected="false" data-value="univ">Universidad</button>
           <span class="seg-thumb" aria-hidden="true"></span>
         </div>
-        <label class="switch glass">
-          <span data-mode-label="virtual" class="on">Virtual</span>
-          <input type="checkbox" id="modeToggle" aria-label="Cambiar a presencial" />
-          <i aria-hidden="true"></i>
-          <span data-mode-label="presencial">Presencial</span>
-        </label>
+        <div class="seg glass seg-sm" role="tablist" aria-label="Modalidad" data-group="modo">
+          <button role="tab" aria-selected="true" data-value="virtual">Virtual</button>
+          <button role="tab" aria-selected="false" data-value="presencial">Presencial</button>
+          <button role="tab" aria-selected="false" data-value="domicilio">A domicilio</button>
+          <span class="seg-thumb" aria-hidden="true"></span>
+        </div>
       </div>
 
-      <div class="plans" id="plans"></div>
-      <p class="fine reveal">Precios en soles por paquete. Presencial incluye clases a domicilio con coordinación previa. Si eres nuevo, pregunta por nuestro <b>Ciclo de Adaptación</b>.</p>
+      <div class="plans" id="plans" aria-live="polite">
+        <p class="plans-empty glass">Cargando precios… Si no aparecen, <a href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20quiero%20el%20tarifario" target="_blank" rel="noopener">pídelos por WhatsApp</a>.</p>
+      </div>
+
+      <div class="extras reveal">
+        <div class="glass extra" id="groupBox"></div>
+        <div class="glass extra" id="tallerBox"></div>
+      </div>
+
+      <ul class="fine reveal">
+        <li><b>Clase diagnóstica gratis de 45 minutos</b> con test de nivel y plan de estudio.</li>
+        <li>Presencial y a domicilio en distritos cercanos; fuera de zona se cotiza la movilidad.</li>
+        <li id="priceDate"></li>
+      </ul>
     </section>
 
     <!-- DOCENTE -->
