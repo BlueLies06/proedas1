@@ -25,7 +25,9 @@
   --tabbar-h: 68px;
 
   --f-display: "Bebas Neue", Impact, sans-serif;
-  --f-logo: "Cinzel", Georgia, serif;
+  --f-logo: "Bodoni Moda", "Didot", Georgia, serif;
+  --f-sub: "Tenor Sans", "Outfit", sans-serif;
+  --gold-metal: linear-gradient(180deg, #fffaf0 0%, #ffe3a1 28%, #f7bf4f 58%, #dc9a30 82%, #b47522 100%);
   color-scheme: dark;
   --f-body: "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -117,8 +119,8 @@ p { margin: 0; }
   border-radius: 999px;
 }
 .brand { display: flex; align-items: center; gap: 8px; text-decoration: none; }
-.brand-star { width: 22px; height: 22px; fill: var(--gold); filter: drop-shadow(0 0 8px rgba(247,191,79,.6)); }
-.brand-name { font: 700 1.15rem/1 var(--f-logo); letter-spacing: .18em; color: var(--gold-soft); }
+.brand-name { display: inline-flex; align-items: center; font: 900 1.3rem/1 var(--f-logo); letter-spacing: .06em; color: var(--gold-soft); }
+.brand-name .logo-o { width: .84em; height: .84em; margin: 0 .04em; overflow: visible; }
 .topnav { display: none; gap: 4px; }
 .topnav a { text-decoration: none; padding: 8px 14px; border-radius: 999px; color: var(--muted); font-weight: 500; transition: .2s; }
 .topnav a:hover { color: var(--white); background: rgba(255,255,255,.08); }
@@ -146,35 +148,22 @@ main .hero { overflow-x: clip; }
   display: grid; align-content: center; gap: 24px;
   padding: 32px 0 40px; position: relative;
 }
-.logo-type { display: grid; gap: 6px; margin: 14px 0 18px; }
-.logo-main {
-  font: 700 clamp(3.4rem, 17vw, 6.5rem)/0.9 var(--f-logo);
-  letter-spacing: .12em;
-  background: linear-gradient(180deg, #fff6dc 0%, var(--gold-soft) 35%, var(--gold) 70%, #c9861f 100%);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-  filter: drop-shadow(0 4px 24px rgba(247,191,79,.25));
+.logo { display: grid; justify-items: start; gap: .3em; margin: 14px 0 18px; font-size: clamp(3.6rem, 18vw, 7rem); font-weight: 400; }
+.logo-word { position: relative; display: flex; align-items: center; font: 900 1em/1 var(--f-logo); font-variation-settings: "opsz" 96; letter-spacing: .05em; }
+.logo-t {
+  background: var(--gold-metal); -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 2px 0 rgba(120,70,10,.55)) drop-shadow(0 10px 30px rgba(247,191,79,.22));
 }
-.logo-o {
-  position: relative; display: inline-block;
-  background: inherit; -webkit-background-clip: text; background-clip: text; color: transparent;
-  background-image: linear-gradient(180deg, #fff6dc 0%, var(--gold-soft) 35%, var(--gold) 70%, #c9861f 100%);
-}
-.logo-o i {
-  position: absolute; left: 50%; top: 52%; width: 135%; height: 40%;
-  border: 2px solid rgba(255,217,138,.8); border-radius: 50%;
-  transform: translate(-50%, -50%) rotate(-22deg);
-  border-left-color: transparent;
-}
-.logo-o i::after {
-  content: ""; position: absolute; width: 8px; height: 8px; border-radius: 50%;
-  background: #fff; box-shadow: 0 0 10px 3px rgba(255,217,138,.9);
-  top: -5px; left: 50%;
-}
+.logo-word .logo-o { width: .84em; height: .84em; margin: 0 .03em 0 .05em; overflow: visible; filter: drop-shadow(0 8px 24px rgba(247,191,79,.3)); animation: wobble 9s ease-in-out infinite; }
+.logo-spark { position: absolute; left: .16em; top: -.34em; width: .34em; height: .34em; filter: drop-shadow(0 0 10px rgba(255,230,160,.9)); animation: twinkle 3.2s ease-in-out infinite; }
+@keyframes twinkle { 50% { transform: scale(.7) rotate(45deg); opacity: .75; } }
+@keyframes wobble { 50% { transform: rotate(8deg) translateY(-2px); } }
 .logo-sub {
-  font: 500 clamp(1rem, 4.6vw, 1.5rem)/1 var(--f-logo);
-  letter-spacing: .32em; text-transform: uppercase; color: var(--gold);
-  padding-left: .2em;
+  display: flex; align-items: center; gap: .7em; padding-left: .45em;
+  font: 400 .17em/1 var(--f-sub); letter-spacing: .45em; text-transform: uppercase; color: var(--gold-soft);
 }
+.logo-sub::before, .logo-sub::after { content: ""; width: 1.8em; height: 1px; background: linear-gradient(90deg, transparent, var(--gold)); }
+.logo-sub::after { background: linear-gradient(270deg, transparent, var(--gold)); }
 .lead { font-size: 1.08rem; color: #c9d6ee; max-width: 520px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
 .uni-chips { list-style: none; padding: 0; margin: 22px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
@@ -372,7 +361,7 @@ main .hero { overflow-x: clip; }
 
 /* ---------- Footer ---------- */
 .footer { text-align: center; padding: 56px var(--gutter) 24px; display: grid; gap: 6px; }
-.logo-foot { font: 700 1.8rem/1 var(--f-logo); letter-spacing: .2em; color: var(--gold); }
+.logo-foot { justify-content: center; font-size: 2rem; color: var(--gold); }
 
 /* ---------- Tabbar móvil + FAB ---------- */
 .tabbar {
