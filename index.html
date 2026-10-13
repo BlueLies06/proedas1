@@ -44,7 +44,9 @@
       <a href="#nosotros">Nosotros</a>
       <a href="#niveles">Niveles</a>
       <a href="#planes">Planes</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#test">Simulacro</a>
+      <a href="#citas">Citas</a>
+      <a href="aula/index.html">Aula virtual</a>
     </nav>
     <a class="btn btn-gold btn-sm" href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20quiero%20informes%20de%20las%20clases" target="_blank" rel="noopener">Escríbenos</a>
   </header>
@@ -194,6 +196,21 @@
       </div>
     </section>
 
+    <!-- SIMULACRO -->
+    <section id="test" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Simulacro gratis</p>
+        <h2>¿Listo para tu examen de admisión?</h2>
+        <p>Elige tu universidad y resuelve 20 preguntas tipo admisión. Al final ves tu puntaje por área y qué reforzar.</p>
+      </header>
+      <div class="uni-cards">
+        <a class="glass uni-card reveal" href="simulacro.html#pucp"><b>PUCP</b><span>Primera Opción · Evaluación del Talento</span><i>Empezar →</i></a>
+        <a class="glass uni-card reveal" href="simulacro.html#ulima"><b>ULIMA</b><span>Examen de admisión escolar</span><i>Empezar →</i></a>
+        <a class="glass uni-card reveal" href="simulacro.html#upc"><b>UPC</b><span>Evaluación de admisión</span><i>Empezar →</i></a>
+        <a class="glass uni-card reveal" href="simulacro.html#upch"><b>UPCH</b><span>Énfasis en ciencias de la salud</span><i>Empezar →</i></a>
+      </div>
+    </section>
+
     <!-- PLANES -->
     <section id="planes" class="section">
       <header class="section-head reveal">
@@ -268,6 +285,34 @@
       </div>
     </section>
 
+    <!-- CITAS -->
+    <section id="citas" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Para padres de familia</p>
+        <h2>Agenda una consulta digital</h2>
+        <p>Conversemos 30 minutos por videollamada sobre el avance y las metas de tu hijo o hija. Elige el día y la hora.</p>
+      </header>
+      <form class="glass booking reveal" id="citaForm" novalidate>
+        <div class="booking-pick">
+          <p class="field-label" id="diaLabel">Día</p>
+          <div class="days" id="days" role="radiogroup" aria-labelledby="diaLabel"></div>
+          <p class="field-label" id="horaLabel">Hora</p>
+          <div class="slots" id="slots" role="radiogroup" aria-labelledby="horaLabel"></div>
+        </div>
+        <div class="booking-form">
+          <label class="field"><span>Nombre del padre o madre</span><input id="citaPadre" name="padre" required autocomplete="name" /></label>
+          <label class="field"><span>Nombre del alumno</span><input id="citaAlumno" name="alumno" autocomplete="off" /></label>
+          <label class="field"><span>WhatsApp</span><input id="citaWsp" name="wsp" required inputmode="tel" autocomplete="tel" placeholder="9XX XXX XXX" /></label>
+          <label class="field"><span>Nivel</span>
+            <select id="citaNivel" name="nivel"><option value="escolar">Colegio</option><option value="pre">Preuniversitario</option><option value="universitario">Universidad</option></select>
+          </label>
+          <label class="field field-wide"><span>¿Qué te gustaría conversar?</span><textarea id="citaMotivo" name="motivo" rows="2" placeholder="Ej.: notas de matemática, preparación para la PUCP"></textarea></label>
+          <p class="form-msg" id="citaMsg" role="status"></p>
+          <button class="btn btn-gold" type="submit" id="citaBtn">Reservar consulta</button>
+        </div>
+      </form>
+    </section>
+
     <!-- PAGOS -->
     <section id="pagos" class="section">
       <div class="glass pay reveal">
@@ -318,15 +363,17 @@
     <p class="brand-name logo-foot">ASTR<svg class="logo-o" aria-hidden="true"><use href="#planet"/></svg>S</p>
     <p>“Aprender para crecer”</p>
     <p class="muted">Nuestro aprendizaje y el cosmos vistos como una constante expansión. #viajedeconocimientos</p>
+    <p><a class="link-arrow" href="aula/index.html">Ingresar al aula virtual →</a></p>
     <p class="muted small">© <span id="year"></span> ASTROS Maestros Asesores · Lima, Perú</p>
   </footer>
 
   <!-- Barra inferior tipo app (móvil) -->
   <nav class="tabbar glass" aria-label="Navegación rápida">
     <a href="#inicio" class="active"><svg viewBox="0 0 24 24"><use href="#i-rocket"/></svg><span>Inicio</span></a>
-    <a href="#niveles"><svg viewBox="0 0 24 24"><use href="#i-book"/></svg><span>Niveles</span></a>
     <a href="#planes"><svg viewBox="0 0 24 24"><use href="#i-star"/></svg><span>Planes</span></a>
-    <a href="#contacto"><svg viewBox="0 0 24 24"><use href="#i-chat"/></svg><span>Contacto</span></a>
+    <a href="#test"><svg viewBox="0 0 24 24"><use href="#i-book"/></svg><span>Simulacro</span></a>
+    <a href="#citas"><svg viewBox="0 0 24 24"><use href="#i-cal"/></svg><span>Citas</span></a>
+    <a href="aula/index.html"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg><span>Aula</span></a>
   </nav>
 
   <a class="fab" href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20quiero%20informes" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
@@ -350,6 +397,10 @@
     <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v11H9l-5 4z"/></symbol>
   </svg>
 
+  <script src="js/fx.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/citas.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

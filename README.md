@@ -9,6 +9,14 @@ Sitio estático (HTML, CSS y JS sin dependencias) pensado para GitHub Pages.
 - **Textos y secciones**: `index.html`.
 - **Colores y estilo liquid glass**: variables al inicio de `styles.css`.
 
+## Estructura
+- `index.html`: web pública (planes, simulacro, citas para padres, contacto).
+- `simulacro.html`: test de 20 preguntas por universidad (lee `data/preguntas.json`).
+- `aula/`: aula virtual con login para administración, profesores y alumnos.
+- `js/config.js`: datos de Supabase y horario de citas. Vacío = modo demo.
+- `supabase/`: base de datos (`schema.sql`) y guía para conectarla (`LEEME.md`).
+- `scripts/sync-datos.sh`: trae a `data/` los precios y preguntas validados por los hilos de precios y SIG.
+
 ## Ver en local
 ```
 python3 -m http.server 8000
