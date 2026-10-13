@@ -312,6 +312,19 @@ drop policy if exists "staff ve simulacros" on public.simulacros;
 create policy "staff ve simulacros" on public.simulacros for select using (public.es_staff());
 
 -- =========================================================
+-- Permisos de la API
+-- Funciona con "Automatically expose new tables" activado o no.
+-- Los visitantes sin cuenta (anon) solo pueden pedir citas y guardar simulacros;
+-- lo que ve o cambia cada usuario con cuenta lo deciden las políticas RLS de arriba.
+-- =========================================================
+grant usage on schema public to anon, authenticated;
+revoke all on all tables in schema public from anon;
+grant insert on public.citas, public.simulacros to anon;
+grant select, insert, update, delete on all tables in schema public to authenticated;
+grant usage, select on all sequences in schema public to authenticated;
+grant execute on function public.mi_rol(), public.es_admin(), public.es_staff() to anon, authenticated;
+
+-- =========================================================
 -- Archivos (Storage): bucket privado "documentos"
 -- =========================================================
 insert into storage.buckets (id, name, public) values ('documentos', 'documentos', false)

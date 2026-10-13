@@ -24,6 +24,6 @@ python3 -m http.server 8000
 y abrir http://localhost:8000
 
 ## Publicar
-- **GitHub Pages** (repo público o plan de pago): *Settings → Pages → Deploy from a branch → `main` / `(root)`*. Queda en `https://bluelies06.github.io/astros/`.
+- **GitHub Pages** (repo público o plan de pago): *Settings → Pages → Deploy from a branch → `main` / `(root)`*. Queda en `https://bluelies06.github.io/proedas1/`.
 - **Repo privado en plan gratuito**: conecta el repo en Netlify o Cloudflare Pages (sin comando de build, carpeta de publicación `/`).
 - El código no guarda secretos: la clave *anon* de Supabase es pública por diseño y los datos bancarios no están en la web.

@@ -4,7 +4,7 @@
 //  - Demo (localStorage) cuando no, con datos de ejemplo para mostrar el aula.
 (() => {
   const CFG = window.ASTROS_CONFIG || {};
-  const SUPABASE_JS = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js";
+  const SUPABASE_JS = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js";
   const isReal = Boolean(CFG.supabaseUrl && CFG.supabaseAnonKey);
 
   const loadScript = (src) => new Promise((ok, fail) => {
