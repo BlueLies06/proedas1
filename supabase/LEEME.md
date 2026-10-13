@@ -5,7 +5,7 @@ Mientras `js/config.js` esté vacío, la web y el aula funcionan en **modo demo*
 ## 1. Crear el proyecto (una sola vez)
 1. Entra a https://supabase.com, crea una cuenta y un proyecto llamado **astros** (región São Paulo).
 2. **SQL Editor → New query**: pega todo `supabase/schema.sql` y dale **Run**. Crea tablas, reglas de seguridad y el espacio para archivos. Se puede volver a ejecutar sin perder datos.
-3. **Authentication → URL Configuration**: en *Site URL* pon la dirección de la web (por ejemplo `https://bluelies06.github.io/ASTROS/aula/`).
+3. **Authentication → URL Configuration**: en *Site URL* pon la dirección de la web (por ejemplo `https://bluelies06.github.io/astros/aula/`).
 4. **Project Settings → API**: copia la *Project URL* y la clave *anon / publishable* en `js/config.js`. No uses la clave *service_role*.
 
 ## 2. Primer ingreso
