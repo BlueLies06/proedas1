@@ -10,9 +10,11 @@ window.ASTROS_CONFIG = {
   // Horario de citas con padres (consultas digitales de 30 min)
   citas: {
     duracionMin: 30,
-    dias: [1, 2, 3, 4, 5, 6],      // 0 = domingo … 6 = sábado
-    desde: "16:00",
-    hasta: "20:00",
+    dias: [0, 1, 2, 3, 4, 5, 6],   // 0 = domingo … 6 = sábado (hoy: todos los días)
+    franjas: [                     // "hasta" es la hora en que termina la última cita
+      { nombre: "Mañana", desde: "09:00", hasta: "13:00" },
+      { nombre: "Tarde", desde: "15:00", hasta: "21:00" },
+    ],
     diasAdelante: 14,
   },
 };

@@ -358,7 +358,20 @@ main .hero { overflow-x: clip; }
 .day small { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 .day b { font: 400 1.6rem/1 var(--f-display); }
 .slots { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 8px; }
-.slot { min-height: 44px; font-variant-numeric: tabular-nums; }
+.slot { min-height: 44px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.slot small { margin-left: 3px; font-size: .66rem; color: var(--muted); letter-spacing: .02em; }
+.slot[aria-checked="true"] small { color: #3b2a07; }
+.slots-group {
+  grid-column: 1 / -1; display: flex; align-items: baseline; gap: 10px; margin-top: 6px;
+  font: 600 .78rem/1.2 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--gold-soft);
+}
+.slots-group:first-child { margin-top: 0; }
+.slots-group span { font-weight: 400; letter-spacing: .02em; text-transform: none; color: var(--muted); }
+.slots-group::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--glass-border), transparent); align-self: center; }
+.section-head .booking-hours {
+  display: inline-flex; margin-top: 12px; padding: 6px 14px; border-radius: 999px;
+  border: 1px solid var(--glass-border); background: rgba(255,255,255,.06); color: var(--text); font-size: .88rem;
+}
 .day[aria-checked="true"], .slot[aria-checked="true"] {
   background: linear-gradient(180deg, var(--gold-soft), var(--gold)); color: #1b1405; border-color: transparent;
   box-shadow: 0 6px 18px -4px rgba(247,191,79,.6);

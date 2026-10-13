@@ -12,7 +12,19 @@
 
   const toMin = (t) => { const [h, m] = t.split(":").map(Number); return h * 60 + m; };
   const pad = (n) => String(n).padStart(2, "0");
-  const hhmm = (d) => `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  // Hora en formato de 12 h, como se dice en Perú: 3:30 p. m.
+  const ampm = (min) => ({ h: (Math.floor(min / 60) % 12) || 12, m: pad(min % 60), s: min < 720 ? "a. m." : "p. m." });
+  const hhmm = (d) => { const a = ampm(d.getHours() * 60 + d.getMinutes()); return `${a.h}:${a.m} ${a.s}`; };
+  const corta = (t, sinSufijo) => { const a = ampm(toMin(t)); return `${a.h}${a.m === "00" ? "" : ":" + a.m}${sinSufijo ? "" : " " + a.s}`; };
+  const rango = (f) => `${corta(f.desde, ampm(toMin(f.desde)).s === ampm(toMin(f.hasta)).s)} a ${corta(f.hasta)}`;
+  const punto = (t) => (t.endsWith(".") ? t : t + ".");
+  // Franjas de atención (compatibilidad: si solo hay desde/hasta, es una sola franja)
+  const franjas = C.franjas || [{ nombre: "", desde: C.desde, hasta: C.hasta }];
+  const horarioEl = document.getElementById("citaHorario");
+  if (horarioEl) {
+    const todos = C.dias.length === 7 ? "Todos los días" : "De lunes a sábado";
+    horarioEl.textContent = punto(`${todos}, ${franjas.map((f) => `de ${rango(f)}`).join(" y ")}`);
+  }
   const fmtDia = (d) => d.toLocaleDateString("es-PE", { weekday: "long", day: "numeric", month: "long" });
 
   // Días hábiles para citas (desde mañana)
@@ -45,10 +57,13 @@
 
   function renderSlots() {
     const out = [];
-    for (let m = toMin(C.desde); m + C.duracionMin <= toMin(C.hasta); m += C.duracionMin) {
-      const t = new Date(dia); t.setMinutes(m);
-      const tomado = ocupadas.has(+t);
-      out.push(`<button type="button" class="slot" role="radio" aria-checked="${hora === +t}" data-t="${+t}" ${tomado ? "disabled aria-label=\"" + hhmm(t) + " ocupado\"" : ""}>${hhmm(t)}</button>`);
+    for (const f of franjas) {
+      if (f.nombre) out.push(`<p class="slots-group">${f.nombre} <span>${rango(f)}</span></p>`);
+      for (let m = toMin(f.desde); m + C.duracionMin <= toMin(f.hasta); m += C.duracionMin) {
+        const t = new Date(dia); t.setMinutes(m);
+        const tomado = ocupadas.has(+t), a = ampm(m);
+        out.push(`<button type="button" class="slot" role="radio" aria-checked="${hora === +t}" data-t="${+t}" aria-label="${hhmm(t)}${tomado ? " ocupado" : ""}" ${tomado ? "disabled" : ""}>${a.h}:${a.m}<small>${a.s}</small></button>`);
+      }
     }
     slotsEl.innerHTML = out.join("") || '<p class="slots-empty">No hay horarios este día.</p>';
   }
@@ -78,8 +93,8 @@
     btn.disabled = true; btn.textContent = "Reservando…";
     try {
       await store.crearCita(cita);
-      const texto = `Hola ASTROS, soy ${cita.padre_nombre}. Reservé una consulta digital el ${fmtDia(inicio)} a las ${hhmm(inicio)}` +
-        (cita.alumno_nombre ? ` para conversar sobre ${cita.alumno_nombre}` : "") + (cita.motivo ? `. Tema: ${cita.motivo}` : "") + ".";
+      const texto = punto(`Hola ASTROS, soy ${cita.padre_nombre}. Reservé una consulta digital el ${fmtDia(inicio)} a las ${hhmm(inicio)}` +
+        (cita.alumno_nombre ? ` para conversar sobre ${cita.alumno_nombre}` : "") + (cita.motivo ? `. Tema: ${cita.motivo}` : ""));
       const real = store.modo === "real";
       form.innerHTML = `
         <div class="booking-done">
