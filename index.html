@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>ASTROS · Maestros Asesores</title>
+  <meta name="description" content="Clases personalizadas para escolares, preuniversitarios y universitarios. Preparación para PUCP, ULIMA, UPC y UPCH. Aprender para crecer." />
+  <meta name="theme-color" content="#060d1c" />
+  <meta property="og:title" content="ASTROS · Maestros Asesores" />
+  <meta property="og:description" content="Asesoría académica personalizada: colegio, pre y universidad. Aprender para crecer." />
+  <meta property="og:image" content="assets/img/astro-hero.webp" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <!-- Barra superior -->
+  <header class="topbar glass">
+    <a href="#inicio" class="brand" aria-label="ASTROS inicio">
+      <svg class="brand-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 8.7l7.1-.6z"/></svg>
+      <span class="brand-name">ASTROS</span>
+    </a>
+    <nav class="topnav" aria-label="Secciones">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#niveles">Niveles</a>
+      <a href="#planes">Planes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-gold btn-sm" href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20quiero%20informes%20de%20las%20clases" target="_blank" rel="noopener">Escríbenos</a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Asesoría académica personalizada</p>
+        <h1 class="logo-type">
+          <span class="logo-main">ASTR<span class="logo-o">O<i></i></span>S</span>
+          <span class="logo-sub">Maestros Asesores</span>
+        </h1>
+        <p class="lead">Cada alumno es un astro: tiene su propio lenguaje de aprendizaje y su ritmo. Te acompañamos desde el colegio hasta la universidad, con clases hechas a tu medida.</p>
+        <div class="hero-cta">
+          <a class="btn btn-gold" href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20quiero%20agendar%20mi%20clase%20diagn%C3%B3stica" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Agenda tu clase
+          </a>
+          <a class="btn btn-glass" href="#planes">Ver planes</a>
+        </div>
+        <ul class="uni-chips" aria-label="Universidades objetivo">
+          <li>PUCP</li><li>ULIMA</li><li>UPC</li><li>UPCH</li>
+        </ul>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="planet"></div>
+        <img src="assets/img/astro-laptop.webp" alt="Astronauta de ASTROS estudiando en su laptop" width="640" height="572" class="float" />
+        <div class="glass stat stat-a"><b>1 a 1</b><span>o grupal</span></div>
+        <div class="glass stat stat-b"><b>L–D</b><span>9 am a 9 pm</span></div>
+      </div>
+      <a href="#nosotros" class="scroll-hint" aria-label="Bajar"><span></span></a>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">¿Quiénes somos?</p>
+        <h2>Nuestro compromiso con tu educación se traduce en <em>resultados</em></h2>
+        <p>ASTROS es un espacio de asesoría personalizada para la formación y el reforzamiento académico, desde nivel escolar hasta universitario. Trabajamos método de estudio, no solo contenido.</p>
+      </header>
+      <div class="cards-3">
+        <article class="glass card reveal">
+          <img src="assets/img/mision.webp" alt="" width="110" height="104" loading="lazy" />
+          <h3>Misión</h3>
+          <p>Que cada alumno logre un aprendizaje total y resultados que se noten en sus notas y en su confianza.</p>
+        </article>
+        <article class="glass card reveal">
+          <img src="assets/img/valores.webp" alt="" width="110" height="117" loading="lazy" />
+          <h3>Valores</h3>
+          <p>Desde la primera clase: <b>empatía</b>, <b>comunicación activa</b> y <b>responsabilidad resolutiva</b>.</p>
+        </article>
+        <article class="glass card reveal">
+          <img src="assets/img/vision.webp" alt="" width="110" height="130" loading="lazy" />
+          <h3>Visión</h3>
+          <p>Ser referentes por nuestra calidad de enseñanza y metodología de estudio para las nuevas generaciones.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section id="metodo" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Tu viaje en 3 pasos</p>
+        <h2>Así despegas con ASTROS</h2>
+      </header>
+      <ol class="steps">
+        <li class="glass step reveal">
+          <span class="step-n">01</span>
+          <h3>Diagnóstico</h3>
+          <p>En la primera clase hacemos un test para medir tus conocimientos y tu forma de aprender.</p>
+        </li>
+        <li class="glass step reveal">
+          <span class="step-n">02</span>
+          <h3>Plan a tu medida</h3>
+          <p>Armamos el temario contigo: tus ejercicios, tus prácticas o desde cero. Tú propones los horarios.</p>
+        </li>
+        <li class="glass step reveal">
+          <span class="step-n">03</span>
+          <h3>Resultados</h3>
+          <p>Seguimiento clase a clase hasta tu práctica, examen o admisión.</p>
+        </li>
+      </ol>
+
+      <div class="benefits reveal">
+        <div class="glass pill-b"><svg viewBox="0 0 24 24"><use href="#i-cal"/></svg>Horario flexible</div>
+        <div class="glass pill-b"><svg viewBox="0 0 24 24"><use href="#i-board"/></svg>Pizarra digital</div>
+        <div class="glass pill-b"><svg viewBox="0 0 24 24"><use href="#i-rec"/></svg>Clases grabadas en Drive</div>
+        <div class="glass pill-b"><svg viewBox="0 0 24 24"><use href="#i-book"/></svg>Temario a solicitud</div>
+        <div class="glass pill-b"><svg viewBox="0 0 24 24"><use href="#i-home"/></svg>Virtual o a domicilio</div>
+        <div class="glass pill-b"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg>Individual o grupal</div>
+      </div>
+    </section>
+
+    <!-- NIVELES -->
+    <section id="niveles" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Preparación</p>
+        <h2>Elige tu órbita</h2>
+      </header>
+
+      <div class="seg glass reveal" role="tablist" aria-label="Niveles">
+        <button role="tab" aria-selected="true" data-tab="escolar">Escolar</button>
+        <button role="tab" aria-selected="false" data-tab="pre">Pre</button>
+        <button role="tab" aria-selected="false" data-tab="univ">Universidad</button>
+        <span class="seg-thumb" aria-hidden="true"></span>
+      </div>
+
+      <div class="tabpanels reveal">
+        <div class="glass panel" data-panel="escolar">
+          <h3>Colegio</h3>
+          <p class="muted">Reforzamiento, nivelación y adelanto para primaria y secundaria.</p>
+          <ul class="topics">
+            <li><b>Matemáticas</b><span>Álgebra, Aritmética, Geometría, Trigonometría</span></li>
+            <li><b>Comunicación</b><span>Razonamiento verbal, Literatura, Lenguaje</span></li>
+            <li><b>Ciencias naturales</b><span>Biología, Química, Física</span></li>
+            <li><b>Ciencias sociales</b><span>Historia, Economía, Psicología</span></li>
+          </ul>
+        </div>
+        <div class="glass panel" data-panel="pre" hidden>
+          <h3>Preuniversitario</h3>
+          <p class="muted">Preparación enfocada en las modalidades de admisión de:</p>
+          <div class="uni-grid">
+            <div class="uni"><b>PUCP</b><span>Pontificia Universidad Católica del Perú</span></div>
+            <div class="uni"><b>ULIMA</b><span>Universidad de Lima</span></div>
+            <div class="uni"><b>UPC</b><span>Universidad Peruana de Ciencias Aplicadas</span></div>
+            <div class="uni"><b>UPCH</b><span>Universidad Peruana Cayetano Heredia</span></div>
+          </div>
+          <ul class="tags">
+            <li>5.º de secundaria</li><li>Primeros puestos</li><li>Tercio superior</li><li>Bachillerato</li><li>CEPRE</li><li>Examen general</li>
+          </ul>
+        </div>
+        <div class="glass panel" data-panel="univ" hidden>
+          <h3>Universidad</h3>
+          <p class="muted">Acompañamiento por curso: para una práctica, un examen o el ciclo completo.</p>
+          <ul class="topics">
+            <li><b>Estudios Generales Ciencias</b><span>Cálculo I–V, Física I–III, Química I–II (laboratorios), Programación</span></li>
+            <li><b>Estudios Generales Letras</b><span>Matemática básica y para economistas, Estadística, Lógica, Argumentación, Investigación</span></li>
+            <li><b>Ciencias de la salud</b><span>Cursos base de Medicina, Enfermería y afines</span></li>
+            <li><b>Ingenierías y Artes</b><span>Cursos de especialidad a solicitud</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANES -->
+    <section id="planes" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Paquetes de horas</p>
+        <h2>Invierte en tu despegue</h2>
+        <p>Elige cuántas horas necesitas. Mientras más horas, menor precio por hora.</p>
+      </header>
+
+      <div class="plan-controls reveal">
+        <div class="seg glass seg-sm" role="tablist" aria-label="Capacidad">
+          <button role="tab" aria-selected="true" data-cap="ind">Individual</button>
+          <button role="tab" aria-selected="false" data-cap="g2">Grupo 2–6</button>
+          <button role="tab" aria-selected="false" data-cap="g7">Grupo 7–10</button>
+          <span class="seg-thumb" aria-hidden="true"></span>
+        </div>
+        <label class="switch glass">
+          <span data-mode-label="virtual" class="on">Virtual</span>
+          <input type="checkbox" id="modeToggle" aria-label="Cambiar a presencial" />
+          <i aria-hidden="true"></i>
+          <span data-mode-label="presencial">Presencial</span>
+        </label>
+      </div>
+
+      <div class="plans" id="plans"></div>
+      <p class="fine reveal">Precios en soles por paquete. Presencial incluye clases a domicilio con coordinación previa. Si eres nuevo, pregunta por nuestro <b>Ciclo de Adaptación</b>.</p>
+    </section>
+
+    <!-- DOCENTE -->
+    <section id="docente" class="section">
+      <div class="glass teacher reveal">
+        <img src="assets/img/astro-hero.webp" alt="" width="280" height="280" loading="lazy" class="float-slow" />
+        <div>
+          <p class="eyebrow">Tu docente</p>
+          <h2>Clases con la dirección académica</h2>
+          <p>Hoy cada clase la dicta y coordina directamente la dirección de ASTROS, con seguimiento personal de cada alumno. Pronto sumaremos más docentes al equipo.</p>
+          <a class="link-arrow" href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20soy%20docente%20y%20me%20interesa%20dictar%20con%20ustedes" target="_blank" rel="noopener">¿Eres docente? Únete al equipo →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Testimonios</p>
+        <h2>Astros que ya despegaron</h2>
+      </header>
+      <div class="carousel" tabindex="0" aria-label="Testimonios">
+        <figure class="glass quote">
+          <blockquote>“Era el mejor de mi colegio, pero no sabía cuánto me había afectado la pandemia en cómo estudiaba. Gracias a los tips y el test que me dieron pude mejorar nuevamente.”</blockquote>
+          <figcaption><b>Renzo A.</b> · 18 años · Pre</figcaption>
+        </figure>
+        <figure class="glass quote">
+          <blockquote>“Me matriculé buscando el camino fácil para sacar mejores notas, pero el profe se esmeraba en que aprenda. Esa motivación me hizo tomarme en serio mis evaluaciones.”</blockquote>
+          <figcaption><b>Alberto J.</b> · 27 años · Universidad</figcaption>
+        </figure>
+        <figure class="glass quote">
+          <blockquote>“Lo que me han enseñado me ayudó a conocer las profesiones que existen y lo que quiero ser. Sé que puedo contar con el apoyo de los profes.”</blockquote>
+          <figcaption><b>Cristina R.</b> · 13 años · Escolar</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- PAGOS -->
+    <section id="pagos" class="section">
+      <div class="glass pay reveal">
+        <div>
+          <p class="eyebrow">Métodos de pago</p>
+          <h2>Paga como prefieras</h2>
+          <p>Aceptamos transferencias y billeteras digitales. Te enviamos los datos por WhatsApp; recuerda mandarnos tu comprobante.</p>
+        </div>
+        <ul class="pay-list">
+          <li class="pay-yape">Yape</li>
+          <li class="pay-plin">Plin</li>
+          <li class="pay-bcp">BCP</li>
+          <li class="pay-bbva">BBVA</li>
+          <li class="pay-ibk">Interbank</li>
+          <li class="pay-scotia">Scotiabank</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <header class="section-head reveal">
+        <p class="eyebrow">Canales de atención</p>
+        <h2>Hablemos</h2>
+      </header>
+      <div class="contact">
+        <a class="glass contact-card reveal" href="https://wa.me/51902155458" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+          <span><b>902 155 458</b><small>WhatsApp · L–D 9 am a 9 pm</small></span>
+        </a>
+        <a class="glass contact-card reveal" href="https://www.instagram.com/1.masesores/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig"/></svg>
+          <span><b>@1.masesores</b><small>Instagram</small></span>
+        </a>
+        <a class="glass contact-card reveal" href="https://www.facebook.com/1.masesores" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-fb"/></svg>
+          <span><b>/1.masesores</b><small>Facebook</small></span>
+        </a>
+        <a class="glass contact-card reveal" href="mailto:3m.amalgama@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"/></svg>
+          <span><b>3m.amalgama@gmail.com</b><small>Correo</small></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="logo-foot">ASTROS</p>
+    <p>“Aprender para crecer”</p>
+    <p class="muted">Nuestro aprendizaje y el cosmos vistos como una constante expansión. #viajedeconocimientos</p>
+    <p class="muted small">© <span id="year"></span> ASTROS Maestros Asesores · Lima, Perú</p>
+  </footer>
+
+  <!-- Barra inferior tipo app (móvil) -->
+  <nav class="tabbar glass" aria-label="Navegación rápida">
+    <a href="#inicio" class="active"><svg viewBox="0 0 24 24"><use href="#i-rocket"/></svg><span>Inicio</span></a>
+    <a href="#niveles"><svg viewBox="0 0 24 24"><use href="#i-book"/></svg><span>Niveles</span></a>
+    <a href="#planes"><svg viewBox="0 0 24 24"><use href="#i-star"/></svg><span>Planes</span></a>
+    <a href="#contacto"><svg viewBox="0 0 24 24"><use href="#i-chat"/></svg><span>Contacto</span></a>
+  </nav>
+
+  <a class="fab" href="https://wa.me/51902155458?text=Hola%20ASTROS%2C%20quiero%20informes" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24"><use href="#i-wa"/></svg>
+  </a>
+
+  <!-- Iconos -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></g></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4a20 20 0 0 0-2.2-.1c-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></g></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18M8 14h2M14 14h2M8 17h2"/></g></symbol>
+    <symbol id="i-board" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="m7 12 3-3 2 2 4-4M8 20l4-4 4 4"/></g></symbol>
+    <symbol id="i-rec" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3z"/></g></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M8 7h7M8 11h5"/></g></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10M10 20v-5h4v5"/></g></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2A5 5 0 0 1 21.5 19"/></g></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2c3 2 5 5.5 5 10l-2 4H9l-2-4c0-4.5 2-8 5-10z"/><circle cx="12" cy="9" r="2"/><path d="M9 16l-3 3 1-5M15 16l3 3-1-5M10.5 19.5 12 22l1.5-2.5"/></g></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 2.8l2.7 6 6.5.6-4.9 4.3 1.5 6.4L12 16.8 6.2 20.1l1.5-6.4-4.9-4.3 6.5-.6z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v11H9l-5 4z"/></symbol>
+  </svg>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
