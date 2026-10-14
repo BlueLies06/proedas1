@@ -4,8 +4,8 @@
 // Nunca pongas aquí la clave "service_role".
 // Si están vacías, la web y el aula funcionan en MODO DEMO con datos de ejemplo guardados en el navegador.
 window.ASTROS_CONFIG = {
-  supabaseUrl: "",
-  supabaseAnonKey: "",
+  supabaseUrl: "https://qstbpaocvdzlnhlznpcn.supabase.co",
+  supabaseAnonKey: "sb_publishable_9hNZ0c25lddsAkED0rLRtQ_AfX7tWKm",
   whatsapp: "51902155458",
   // Horario de citas con padres (consultas digitales de 30 min)
   citas: {

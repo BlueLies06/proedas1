@@ -1,12 +1,12 @@
 # Conectar el aula virtual a Supabase
 
-Mientras `js/config.js` esté vacío, la web y el aula funcionan en **modo demo** (datos de ejemplo guardados solo en tu navegador).
+Proyecto conectado: `qstbpaocvdzlnhlznpcn` (URL y clave *publishable* ya están en `js/config.js`). Si `js/config.js` queda vacío, la web y el aula funcionan en **modo demo** (datos de ejemplo guardados solo en tu navegador).
 
 ## 1. Crear el proyecto (una sola vez)
-1. Entra a https://supabase.com, crea una cuenta y un proyecto llamado **astros** (región São Paulo).
+1. Entra a https://supabase.com, crea una cuenta y un proyecto llamado **astros** (región Americas).
 2. **SQL Editor → New query**: pega todo `supabase/schema.sql` y dale **Run**. Crea tablas, reglas de seguridad y el espacio para archivos. Se puede volver a ejecutar sin perder datos.
-3. **Authentication → URL Configuration**: en *Site URL* pon la dirección de la web (por ejemplo `https://bluelies06.github.io/proedas1/aula/`).
-4. **Project Settings → API**: copia la *Project URL* y la clave *anon / publishable* en `js/config.js`. No uses la clave *service_role*.
+3. **Authentication → URL Configuration**: en *Site URL* pon `https://bluelies06.github.io/proedas1/aula/` y en *Redirect URLs* agrega `https://bluelies06.github.io/proedas1/**` (para los enlaces de confirmación y de recuperar contraseña).
+4. **Project Settings → API Keys**: copia la *Project URL* y la *Publishable key* en `js/config.js`. Nunca uses la *secret key* ni la *service_role*.
 
 ## 2. Primer ingreso
 - La **primera cuenta** que se registra en el aula queda como **Administración**. Regístrate tú primero.
