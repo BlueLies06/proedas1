@@ -1,0 +1,1453 @@
+{
+ "actualizado": "2026-10-13",
+ "universidades": {
+  "PUCP": [
+   {
+    "id": "pucp-012",
+    "area": "Razonamiento Matemático",
+    "tema": "Móviles",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un auto recorre 180 km en 2 horas y 30 minutos. ¿Cuál es su velocidad media?",
+    "opciones": [
+     "60 km/h",
+     "72 km/h",
+     "75 km/h",
+     "80 km/h",
+     "90 km/h"
+    ],
+    "correcta": 1,
+    "solucion": "2 h 30 min = 2,5 h. Velocidad = 180 ÷ 2,5 = 72 km/h.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-011",
+    "area": "Razonamiento Matemático",
+    "tema": "Conjuntos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "En un aula de 40 alumnos, 25 estudian Matemática, 20 estudian Física y 8 no estudian ninguno de esos cursos. ¿Cuántos estudian ambos cursos?",
+    "opciones": [
+     "5",
+     "8",
+     "10",
+     "12",
+     "13"
+    ],
+    "correcta": 4,
+    "solucion": "Estudian al menos uno: 40 − 8 = 32. Ambos: 25 + 20 − 32 = 13.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-002",
+    "area": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 2; 5; 10; 17; 26; ...",
+    "opciones": [
+     "26",
+     "31",
+     "35",
+     "36",
+     "37"
+    ],
+    "correcta": 4,
+    "solucion": "Los términos son n² + 1 para n = 1, 2, 3...; el sexto es 6² + 1 = 37.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-006",
+    "area": "Razonamiento Matemático",
+    "tema": "Fracciones (trabajo)",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "El caño A llena un tanque en 6 horas y el caño B lo llena en 3 horas. Si se abren ambos a la vez con el tanque vacío, ¿en cuántas horas se llena?",
+    "opciones": [
+     "1,5",
+     "2",
+     "2,5",
+     "3",
+     "4,5"
+    ],
+    "correcta": 1,
+    "solucion": "En una hora llenan 1/6 + 1/3 = 1/2 del tanque; el tanque completo se llena en 2 horas.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-008",
+    "area": "Razonamiento Matemático",
+    "tema": "Análisis combinatorio",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿De cuántas maneras distintas se pueden ordenar todas las letras de la palabra ASTRO?",
+    "opciones": [
+     "24",
+     "60",
+     "100",
+     "110",
+     "120"
+    ],
+    "correcta": 4,
+    "solucion": "Son 5 letras distintas: 5! = 120.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-010",
+    "area": "Razonamiento Matemático",
+    "tema": "Operadores",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Se define a ✱ b = 2a − b. Calcula (3 ✱ 1) ✱ 4.",
+    "opciones": [
+     "2",
+     "4",
+     "5",
+     "6",
+     "8"
+    ],
+    "correcta": 3,
+    "solucion": "3 ✱ 1 = 6 − 1 = 5. Luego 5 ✱ 4 = 10 − 4 = 6.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-001",
+    "area": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 3; 7; 15; 31; ...",
+    "opciones": [
+     "63",
+     "64",
+     "65",
+     "72",
+     "127"
+    ],
+    "correcta": 0,
+    "solucion": "Cada término es el anterior por 2 más 1: 31 × 2 + 1 = 63.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-007",
+    "area": "Razonamiento Matemático",
+    "tema": "Probabilidades",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Se lanzan dos dados comunes. ¿Cuál es la probabilidad de que la suma de los resultados sea 7?",
+    "opciones": [
+     "1/12",
+     "1/9",
+     "1/6",
+     "7/36",
+     "1/3"
+    ],
+    "correcta": 2,
+    "solucion": "Hay 36 resultados posibles y 6 suman 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Probabilidad 6/36 = 1/6.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-017",
+    "area": "Matemática Básica",
+    "tema": "Áreas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un rectángulo tiene perímetro 30 cm y su largo es el doble de su ancho. ¿Cuál es su área?",
+    "opciones": [
+     "25 cm²",
+     "45 cm²",
+     "50 cm²",
+     "60 cm²",
+     "72 cm²"
+    ],
+    "correcta": 2,
+    "solucion": "2(2a + a) = 30 da a = 5 y largo 10. Área = 5 × 10 = 50 cm².",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-021",
+    "area": "Matemática Básica",
+    "tema": "Teorema de Pitágoras",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Los catetos de un triángulo rectángulo miden 6 cm y 8 cm. ¿Cuánto mide la hipotenusa?",
+    "opciones": [
+     "9 cm",
+     "10 cm",
+     "12 cm",
+     "14 cm",
+     "48 cm"
+    ],
+    "correcta": 1,
+    "solucion": "h² = 6² + 8² = 36 + 64 = 100, h = 10 cm.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-018",
+    "area": "Matemática Básica",
+    "tema": "Leyes de exponentes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Simplifica: 2¹⁰ ÷ 2⁷",
+    "opciones": [
+     "2",
+     "4",
+     "6",
+     "7",
+     "8"
+    ],
+    "correcta": 4,
+    "solucion": "2¹⁰ ÷ 2⁷ = 2³ = 8.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-014",
+    "area": "Matemática Básica",
+    "tema": "Ecuaciones lineales",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Resuelve: 2x + 3 = 5x − 9",
+    "opciones": [
+     "2",
+     "3",
+     "4",
+     "6",
+     "12"
+    ],
+    "correcta": 2,
+    "solucion": "3 + 9 = 5x − 2x, entonces 12 = 3x y x = 4.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-020",
+    "area": "Matemática Básica",
+    "tema": "Productos notables",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Si a + b = 7 y a · b = 10, ¿cuánto vale a² + b²?",
+    "opciones": [
+     "29",
+     "39",
+     "49",
+     "59",
+     "69"
+    ],
+    "correcta": 0,
+    "solucion": "a² + b² = (a + b)² − 2ab = 49 − 20 = 29.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-025",
+    "area": "Comprensión Lectora",
+    "tema": "Tema central",
+    "dificultad": 1,
+    "texto": "Muchas personas piensan que reciclar es la solución principal al problema de los residuos. No obstante, el reciclaje es solo la última de varias estrategias. Antes de reciclar, conviene reducir lo que consumimos y reutilizar lo que ya tenemos, pues todo proceso de reciclaje requiere energía, transporte y agua. Una botella que se reutiliza diez veces evita fabricar nueve botellas nuevas; una botella reciclada, en cambio, debe ser recolectada, limpiada, triturada y fundida. Por eso, los especialistas sostienen que una ciudad que recicla mucho pero consume sin control no es necesariamente una ciudad sostenible.",
+    "enunciado": "¿Cuál es el tema central del texto?",
+    "opciones": [
+     "La historia del reciclaje de botellas.",
+     "El reciclaje como una estrategia más, posterior a reducir y reutilizar.",
+     "El consumo de agua en las ciudades.",
+     "Las ventajas de fabricar botellas nuevas.",
+     "La prohibición de reciclar en las ciudades."
+    ],
+    "correcta": 1,
+    "solucion": "El texto sostiene que el reciclaje es 'solo la última de varias estrategias', después de reducir y reutilizar.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-026",
+    "area": "Comprensión Lectora",
+    "tema": "Sentido contextual",
+    "dificultad": 2,
+    "texto": "Muchas personas piensan que reciclar es la solución principal al problema de los residuos. No obstante, el reciclaje es solo la última de varias estrategias. Antes de reciclar, conviene reducir lo que consumimos y reutilizar lo que ya tenemos, pues todo proceso de reciclaje requiere energía, transporte y agua. Una botella que se reutiliza diez veces evita fabricar nueve botellas nuevas; una botella reciclada, en cambio, debe ser recolectada, limpiada, triturada y fundida. Por eso, los especialistas sostienen que una ciudad que recicla mucho pero consume sin control no es necesariamente una ciudad sostenible.",
+    "enunciado": "En el texto, la palabra SOSTENIBLE se refiere a una ciudad que:",
+    "opciones": [
+     "puede mantenerse en el tiempo sin agotar sus recursos.",
+     "tiene muchas plantas de reciclaje.",
+     "fabrica sus propias botellas.",
+     "consume más de lo que produce.",
+     "transporta sus residuos a otras ciudades."
+    ],
+    "correcta": 0,
+    "solucion": "El texto opone 'sostenible' a 'consumir sin control': se refiere a no agotar recursos en el tiempo.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-027",
+    "area": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 3,
+    "texto": "Muchas personas piensan que reciclar es la solución principal al problema de los residuos. No obstante, el reciclaje es solo la última de varias estrategias. Antes de reciclar, conviene reducir lo que consumimos y reutilizar lo que ya tenemos, pues todo proceso de reciclaje requiere energía, transporte y agua. Una botella que se reutiliza diez veces evita fabricar nueve botellas nuevas; una botella reciclada, en cambio, debe ser recolectada, limpiada, triturada y fundida. Por eso, los especialistas sostienen que una ciudad que recicla mucho pero consume sin control no es necesariamente una ciudad sostenible.",
+    "enunciado": "Según el texto, reutilizar una botella es preferible a reciclarla porque:",
+    "opciones": [
+     "las botellas recicladas no sirven.",
+     "reciclar no requiere energía.",
+     "una botella reciclada dura diez veces más.",
+     "reutilizar está prohibido en muchas ciudades.",
+     "evita los costos de energía, transporte y agua que exige reciclar."
+    ],
+    "correcta": 4,
+    "solucion": "El texto indica que reciclar requiere energía, transporte y agua, mientras que reutilizar evita fabricar botellas nuevas.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-031",
+    "area": "Redacción",
+    "tema": "Precisión léxica",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Reemplaza el verbo subrayado por uno más preciso: «El ministro DIJO su renuncia ayer.»",
+    "opciones": [
+     "habló",
+     "presentó",
+     "hizo",
+     "contó",
+     "puso"
+    ],
+    "correcta": 1,
+    "solucion": "Una renuncia se 'presenta'. Los demás verbos son imprecisos o incorrectos en este contexto.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-028",
+    "area": "Redacción",
+    "tema": "Conectores",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Elige el conector adecuado: «Estudió durante varios meses; ______, no alcanzó el puntaje mínimo.»",
+    "opciones": [
+     "por lo tanto",
+     "sin embargo",
+     "es decir",
+     "además",
+     "por ejemplo"
+    ],
+    "correcta": 1,
+    "solucion": "Hay una relación de oposición entre estudiar mucho y no alcanzar el puntaje: 'sin embargo'.",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-033",
+    "area": "Redacción",
+    "tema": "Plan de redacción",
+    "dificultad": 3,
+    "texto": null,
+    "enunciado": "Ordena las ideas: (1) Finalmente, revisa tus errores para no repetirlos. (2) Primero, identifica los temas que más te cuestan. (3) Luego, practica con preguntas de exámenes anteriores. (4) Cómo preparar un simulacro eficaz. (5) Después, toma un simulacro cronometrado.",
+    "opciones": [
+     "4-2-3-5-1",
+     "2-3-5-1-4",
+     "4-3-2-5-1",
+     "4-2-5-3-1",
+     "2-4-3-1-5"
+    ],
+    "correcta": 0,
+    "solucion": "El título (4) va primero y luego la secuencia marcada por los conectores: primero (2), luego (3), después (5), finalmente (1).",
+    "fuente": "propia"
+   },
+   {
+    "id": "pucp-032",
+    "area": "Redacción",
+    "tema": "Eliminación de oraciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Señala la oración que debe eliminarse por no corresponder al tema: (I) El café es una de las bebidas más consumidas del mundo. (II) Su cultivo se concentra en zonas tropicales. (III) El Perú es uno de los principales exportadores de café orgánico. (IV) El té verde tiene antioxidantes. (V) La cosecha de café da trabajo a miles de familias.",
+    "opciones": [
+     "I",
+     "II",
+     "III",
+     "IV",
+     "V"
+    ],
+    "correcta": 3,
+    "solucion": "Todas las oraciones tratan del café, excepto la IV, que habla del té verde.",
+    "fuente": "propia"
+   }
+  ],
+  "ULIMA": [
+   {
+    "id": "ulima-006",
+    "area": "Razonamiento Matemático",
+    "tema": "Conteo",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Cuántos números de dos cifras tienen sus dos cifras pares?",
+    "opciones": [
+     "16",
+     "20",
+     "25",
+     "40",
+     "45"
+    ],
+    "correcta": 1,
+    "solucion": "Decenas: 2, 4, 6 u 8 (4 opciones; no puede ser 0). Unidades: 0, 2, 4, 6 u 8 (5 opciones). Total 4 × 5 = 20.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-001",
+    "area": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 1; 1; 2; 3; 5; 8; ...",
+    "opciones": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21"
+    ],
+    "correcta": 2,
+    "solucion": "Cada término es la suma de los dos anteriores: 5 + 8 = 13.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-002",
+    "area": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 4; 9; 19; 39; ...",
+    "opciones": [
+     "59",
+     "69",
+     "78",
+     "79",
+     "80"
+    ],
+    "correcta": 3,
+    "solucion": "Cada término es el anterior por 2 más 1: 39 × 2 + 1 = 79.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-007",
+    "area": "Razonamiento Matemático",
+    "tema": "Mezclas",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Se mezclan 3 kg de café de S/ 20 el kg con 2 kg de café de S/ 30 el kg. ¿Cuál es el precio de un kilo de la mezcla?",
+    "opciones": [
+     "S/ 22",
+     "S/ 24",
+     "S/ 25",
+     "S/ 26",
+     "S/ 28"
+    ],
+    "correcta": 1,
+    "solucion": "Costo total: 3 × 20 + 2 × 30 = 120 por 5 kg; 120 ÷ 5 = S/ 24.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-008",
+    "area": "Razonamiento Matemático",
+    "tema": "Fracciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Gasté 1/3 de mi dinero y luego 1/4 de lo que me quedaba. Si aún tengo S/ 60, ¿cuánto tenía al inicio?",
+    "opciones": [
+     "S/ 90",
+     "S/ 100",
+     "S/ 120",
+     "S/ 144",
+     "S/ 180"
+    ],
+    "correcta": 2,
+    "solucion": "Queda x · 2/3 · 3/4 = x/2 = 60, entonces x = 120.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-004",
+    "area": "Razonamiento Matemático",
+    "tema": "Porcentajes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "De 200 clientes de una tienda, el 60 % compra algo y, de ellos, el 25 % paga con Yape. ¿Cuántos clientes pagan con Yape?",
+    "opciones": [
+     "25",
+     "30",
+     "40",
+     "50",
+     "60"
+    ],
+    "correcta": 1,
+    "solucion": "60 % de 200 = 120; 25 % de 120 = 30.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-009",
+    "area": "Razonamiento Matemático",
+    "tema": "Ordenamiento",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Ana es más alta que Bea; Carla es más baja que Bea; Diana es más alta que Ana. ¿Quién es la más baja?",
+    "opciones": [
+     "Ana",
+     "Bea",
+     "Carla",
+     "Diana",
+     "No se puede saber"
+    ],
+    "correcta": 2,
+    "solucion": "Orden de mayor a menor: Diana, Ana, Bea, Carla.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-003",
+    "area": "Razonamiento Matemático",
+    "tema": "Edades",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un padre tiene 40 años y su hijo 10. ¿Dentro de cuántos años la edad del padre será el triple de la de su hijo?",
+    "opciones": [
+     "5",
+     "8",
+     "10",
+     "12",
+     "15"
+    ],
+    "correcta": 0,
+    "solucion": "40 + x = 3(10 + x), entonces 40 + x = 30 + 3x y x = 5.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-012",
+    "area": "Matemática",
+    "tema": "Logaritmos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Calcula log₂ 32.",
+    "opciones": [
+     "4",
+     "5",
+     "6",
+     "8",
+     "16"
+    ],
+    "correcta": 1,
+    "solucion": "2⁵ = 32, por lo tanto log₂ 32 = 5.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-010",
+    "area": "Matemática",
+    "tema": "Ecuación cuadrática",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es la suma de las raíces de x² − 5x + 6 = 0?",
+    "opciones": [
+     "−5",
+     "−1",
+     "1",
+     "5",
+     "6"
+    ],
+    "correcta": 3,
+    "solucion": "x² − 5x + 6 = (x − 2)(x − 3): raíces 2 y 3, suma 5.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-011",
+    "area": "Matemática",
+    "tema": "Funciones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Si f(x) = 3x − 2, ¿cuánto vale f(f(2))?",
+    "opciones": [
+     "4",
+     "8",
+     "10",
+     "12",
+     "16"
+    ],
+    "correcta": 2,
+    "solucion": "f(2) = 4 y f(4) = 12 − 2 = 10.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-014",
+    "area": "Matemática",
+    "tema": "Interés simple",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Qué interés simple generan S/ 1 000 al 5 % anual durante 3 años?",
+    "opciones": [
+     "S/ 50",
+     "S/ 100",
+     "S/ 150",
+     "S/ 157,63",
+     "S/ 300"
+    ],
+    "correcta": 2,
+    "solucion": "I = C · r · t = 1 000 × 0,05 × 3 = S/ 150.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-013",
+    "area": "Matemática",
+    "tema": "Círculo",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es el área de un círculo de radio 3 cm?",
+    "opciones": [
+     "3π cm²",
+     "6π cm²",
+     "9π cm²",
+     "12π cm²",
+     "18π cm²"
+    ],
+    "correcta": 2,
+    "solucion": "Área = πr² = π · 3² = 9π cm².",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-018",
+    "area": "Razonamiento Verbal",
+    "tema": "Oraciones incompletas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "A pesar de su ______, logró terminar la maratón.",
+    "opciones": [
+     "cansancio",
+     "alegría",
+     "velocidad",
+     "éxito",
+     "entusiasmo"
+    ],
+    "correcta": 0,
+    "solucion": "'A pesar de' introduce un obstáculo: el cansancio.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-017",
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "LIBRO : BIBLIOTECA ::",
+    "opciones": [
+     "letra : palabra",
+     "pintor : pincel",
+     "hoja : árbol",
+     "vaso : agua",
+     "cuadro : museo"
+    ],
+    "correcta": 4,
+    "solucion": "Relación objeto : lugar donde se guarda y exhibe. Igual que el cuadro en el museo.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-016",
+    "area": "Razonamiento Verbal",
+    "tema": "Antónimos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Antónimo de ESCASO:",
+    "opciones": [
+     "abundante",
+     "poco",
+     "raro",
+     "pobre",
+     "breve"
+    ],
+    "correcta": 0,
+    "solucion": "Escaso es lo que hay en poca cantidad; su opuesto es abundante.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-015",
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Sinónimo de EFÍMERO:",
+    "opciones": [
+     "eterno",
+     "oscuro",
+     "enorme",
+     "valiente",
+     "pasajero"
+    ],
+    "correcta": 4,
+    "solucion": "Efímero significa que dura poco: pasajero.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-020",
+    "area": "Comprensión Lectora",
+    "tema": "Idea principal",
+    "dificultad": 1,
+    "texto": "La anchoveta es un pez pequeño, pero su importancia para el Perú es enorme. Gracias a la corriente de Humboldt, de aguas frías y ricas en nutrientes, el mar peruano alberga una de las mayores poblaciones de este pez en el mundo. La mayor parte de la captura se destina a producir harina y aceite de pescado, que se exportan para alimentar animales de granja y peces de criadero. Sin embargo, solo una pequeña fracción llega a la mesa de los peruanos, a pesar de que la anchoveta es barata y muy nutritiva. Diversas campañas han intentado cambiar esta situación, aunque los hábitos alimentarios cambian lentamente.",
+    "enunciado": "¿Cuál es la idea principal del texto?",
+    "opciones": [
+     "La corriente de Humboldt es fría y rica en nutrientes.",
+     "Las campañas de consumo de anchoveta fueron un éxito.",
+     "Los peruanos no comen pescado.",
+     "La harina de pescado alimenta a los animales de granja.",
+     "La anchoveta es muy importante para el Perú, pero se usa sobre todo para exportar harina y aceite y poco para el consumo humano."
+    ],
+    "correcta": 4,
+    "solucion": "El texto presenta la importancia de la anchoveta y el contraste entre su uso industrial y su poco consumo directo.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-021",
+    "area": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "La anchoveta es un pez pequeño, pero su importancia para el Perú es enorme. Gracias a la corriente de Humboldt, de aguas frías y ricas en nutrientes, el mar peruano alberga una de las mayores poblaciones de este pez en el mundo. La mayor parte de la captura se destina a producir harina y aceite de pescado, que se exportan para alimentar animales de granja y peces de criadero. Sin embargo, solo una pequeña fracción llega a la mesa de los peruanos, a pesar de que la anchoveta es barata y muy nutritiva. Diversas campañas han intentado cambiar esta situación, aunque los hábitos alimentarios cambian lentamente.",
+    "enunciado": "Se infiere del texto que, si la corriente de Humboldt se debilitara:",
+    "opciones": [
+     "probablemente disminuiría la población de anchoveta.",
+     "aumentaría el consumo de anchoveta en el Perú.",
+     "la anchoveta sería más cara que la carne.",
+     "se dejaría de exportar harina de pescado de inmediato.",
+     "las campañas de consumo tendrían éxito."
+    ],
+    "correcta": 0,
+    "solucion": "El texto atribuye la gran población de anchoveta a las aguas frías y nutritivas de esa corriente.",
+    "fuente": "propia"
+   },
+   {
+    "id": "ulima-022",
+    "area": "Comprensión Lectora",
+    "tema": "Sentido contextual",
+    "dificultad": 1,
+    "texto": "La anchoveta es un pez pequeño, pero su importancia para el Perú es enorme. Gracias a la corriente de Humboldt, de aguas frías y ricas en nutrientes, el mar peruano alberga una de las mayores poblaciones de este pez en el mundo. La mayor parte de la captura se destina a producir harina y aceite de pescado, que se exportan para alimentar animales de granja y peces de criadero. Sin embargo, solo una pequeña fracción llega a la mesa de los peruanos, a pesar de que la anchoveta es barata y muy nutritiva. Diversas campañas han intentado cambiar esta situación, aunque los hábitos alimentarios cambian lentamente.",
+    "enunciado": "En el texto, la palabra FRACCIÓN significa:",
+    "opciones": [
+     "fragmento de roca",
+     "número",
+     "división",
+     "parte",
+     "quebrado"
+    ],
+    "correcta": 3,
+    "solucion": "'Una pequeña fracción llega a la mesa' quiere decir una pequeña parte de la captura.",
+    "fuente": "propia"
+   }
+  ],
+  "UPC": [
+   {
+    "id": "upc-012",
+    "area": "Razonamiento Matemático",
+    "tema": "Números consecutivos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Las edades de tres hermanos son números consecutivos y suman 36. ¿Qué edad tiene el mayor?",
+    "opciones": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "correcta": 2,
+    "solucion": "n + (n + 1) + (n + 2) = 36 da n = 11; el mayor tiene 13.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-006",
+    "area": "Razonamiento Matemático",
+    "tema": "Móviles",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un ciclista avanza a 18 km/h. ¿Cuántos metros recorre en 10 minutos?",
+    "opciones": [
+     "1 800 m",
+     "2 400 m",
+     "3 000 m",
+     "3 600 m",
+     "18 000 m"
+    ],
+    "correcta": 2,
+    "solucion": "18 km/h = 18 000 m en 60 min = 300 m por minuto; en 10 min, 3 000 m.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-001",
+    "area": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 5; 10; 8; 16; 14; ...",
+    "opciones": [
+     "12",
+     "18",
+     "24",
+     "28",
+     "30"
+    ],
+    "correcta": 3,
+    "solucion": "Se alterna ×2 y −2: 14 × 2 = 28.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-002",
+    "area": "Razonamiento Matemático",
+    "tema": "Proporcionalidad",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Si 4 cuadernos cuestan S/ 18, ¿cuánto cuestan 10 cuadernos?",
+    "opciones": [
+     "S/ 36",
+     "S/ 40",
+     "S/ 45",
+     "S/ 48",
+     "S/ 54"
+    ],
+    "correcta": 2,
+    "solucion": "Cada cuaderno cuesta 18 ÷ 4 = 4,5; diez cuestan S/ 45.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-007",
+    "area": "Razonamiento Matemático",
+    "tema": "Probabilidades",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Una bolsa tiene 3 bolas rojas, 5 azules y 2 verdes. Si se saca una al azar, ¿cuál es la probabilidad de que NO sea azul?",
+    "opciones": [
+     "1/5",
+     "3/10",
+     "1/2",
+     "3/5",
+     "7/10"
+    ],
+    "correcta": 2,
+    "solucion": "No azules: 3 + 2 = 5 de 10. Probabilidad 5/10 = 1/2.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-011",
+    "area": "Razonamiento Matemático",
+    "tema": "Regla de tres compuesta",
+    "dificultad": 3,
+    "texto": null,
+    "enunciado": "5 impresoras imprimen 400 hojas en 8 minutos. Al mismo ritmo, ¿cuántas hojas imprimen 2 impresoras en 20 minutos?",
+    "opciones": [
+     "160",
+     "200",
+     "320",
+     "400",
+     "500"
+    ],
+    "correcta": 3,
+    "solucion": "Cada impresora imprime 400 ÷ (5 × 8) = 10 hojas por minuto. 2 × 20 × 10 = 400.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-013",
+    "area": "Razonamiento Matemático",
+    "tema": "Lógica",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "«Si llueve, el partido se suspende». Se sabe que el partido NO se suspendió. Entonces:",
+    "opciones": [
+     "llovió.",
+     "no se puede concluir nada.",
+     "el partido se jugó bajo la lluvia.",
+     "el partido se suspendió.",
+     "no llovió."
+    ],
+    "correcta": 4,
+    "solucion": "Si lloviera, se habría suspendido; como no se suspendió, no llovió (modus tollens).",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-004",
+    "area": "Razonamiento Matemático",
+    "tema": "Promedio ponderado",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un curso se califica así: práctica 30 %, parcial 30 % y final 40 %. Si un alumno saca 12, 15 y 18 respectivamente, ¿cuál es su nota?",
+    "opciones": [
+     "14,5",
+     "15",
+     "15,3",
+     "15,8",
+     "16"
+    ],
+    "correcta": 2,
+    "solucion": "0,3 × 12 + 0,3 × 15 + 0,4 × 18 = 3,6 + 4,5 + 7,2 = 15,3.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-003",
+    "area": "Razonamiento Matemático",
+    "tema": "Descuentos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un celular cuesta S/ 1 200 y tiene 15 % de descuento. ¿Cuál es el precio final?",
+    "opciones": [
+     "S/ 1 020",
+     "S/ 1 050",
+     "S/ 1 080",
+     "S/ 1 100",
+     "S/ 1 180"
+    ],
+    "correcta": 0,
+    "solucion": "15 % de 1 200 = 180; 1 200 − 180 = S/ 1 020.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-010",
+    "area": "Matemática",
+    "tema": "Perímetro",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Se quiere cercar un terreno rectangular de 12 m por 8 m. ¿Cuántos metros de malla se necesitan?",
+    "opciones": [
+     "20 m",
+     "40 m",
+     "48 m",
+     "80 m",
+     "96 m"
+    ],
+    "correcta": 1,
+    "solucion": "Perímetro = 2(12 + 8) = 40 m.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-008",
+    "area": "Matemática",
+    "tema": "Ecuaciones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Resuelve: 3(x − 2) = x + 8",
+    "opciones": [
+     "3",
+     "5",
+     "7",
+     "9",
+     "14"
+    ],
+    "correcta": 2,
+    "solucion": "3x − 6 = x + 8, entonces 2x = 14 y x = 7.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-009",
+    "area": "Matemática",
+    "tema": "Planteo",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un plan de datos cuesta S/ 30 fijos más S/ 2 por cada GB adicional. Con S/ 50, ¿cuántos GB adicionales puedes comprar como máximo?",
+    "opciones": [
+     "5",
+     "8",
+     "10",
+     "12",
+     "25"
+    ],
+    "correcta": 2,
+    "solucion": "30 + 2g ≤ 50, entonces g ≤ 10.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-018",
+    "area": "Razonamiento Verbal",
+    "tema": "Oraciones incompletas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "El informe era tan ______ que nadie pudo entender sus conclusiones.",
+    "opciones": [
+     "claro",
+     "confuso",
+     "breve",
+     "preciso",
+     "interesante"
+    ],
+    "correcta": 1,
+    "solucion": "Que nadie lo entendiera indica que era confuso.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-017",
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Practicó todos los días; ______, mejoró su puntaje.",
+    "opciones": [
+     "por eso",
+     "no obstante",
+     "aunque",
+     "en cambio",
+     "sin embargo"
+    ],
+    "correcta": 0,
+    "solucion": "La segunda idea es consecuencia de la primera: 'por eso'.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-016",
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "MÉDICO : HOSPITAL ::",
+    "opciones": [
+     "chofer : pasajero",
+     "alumno : cuaderno",
+     "pan : panadero",
+     "juez : ley",
+     "docente : colegio"
+    ],
+    "correcta": 4,
+    "solucion": "Relación profesional : lugar donde trabaja.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-014",
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Sinónimo de PERSPICAZ:",
+    "opciones": [
+     "agudo",
+     "lento",
+     "perezoso",
+     "confuso",
+     "tímido"
+    ],
+    "correcta": 0,
+    "solucion": "Perspicaz es quien percibe y entiende con rapidez: agudo.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-015",
+    "area": "Razonamiento Verbal",
+    "tema": "Antónimos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Antónimo de DILIGENTE:",
+    "opciones": [
+     "cuidadoso",
+     "negligente",
+     "rápido",
+     "atento",
+     "activo"
+    ],
+    "correcta": 1,
+    "solucion": "Diligente es cuidadoso y activo; lo opuesto es negligente.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-020",
+    "area": "Comprensión Lectora",
+    "tema": "Propósito del autor",
+    "dificultad": 1,
+    "texto": "Las redes sociales nos ofrecen información en cantidades nunca vistas, pero no toda es confiable. Muchas publicaciones se comparten porque generan emoción, no porque sean ciertas. Por ello, antes de reenviar una noticia, conviene hacerse tres preguntas: ¿quién la publica?, ¿qué evidencia presenta? y ¿otras fuentes serias dicen lo mismo? Este hábito, que toma menos de un minuto, reduce la difusión de noticias falsas. No se trata de desconfiar de todo, sino de aprender a distinguir entre lo verificado y lo que solo parece verdadero.",
+    "enunciado": "¿Cuál es el propósito principal del autor?",
+    "opciones": [
+     "Recomendar un hábito sencillo para verificar la información antes de compartirla.",
+     "Prohibir el uso de redes sociales.",
+     "Demostrar que toda noticia emotiva es falsa.",
+     "Explicar cómo funcionan las redes sociales.",
+     "Criticar a quienes publican noticias."
+    ],
+    "correcta": 0,
+    "solucion": "El texto propone tres preguntas para verificar antes de reenviar.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-021",
+    "area": "Comprensión Lectora",
+    "tema": "Incompatibilidad",
+    "dificultad": 2,
+    "texto": "Las redes sociales nos ofrecen información en cantidades nunca vistas, pero no toda es confiable. Muchas publicaciones se comparten porque generan emoción, no porque sean ciertas. Por ello, antes de reenviar una noticia, conviene hacerse tres preguntas: ¿quién la publica?, ¿qué evidencia presenta? y ¿otras fuentes serias dicen lo mismo? Este hábito, que toma menos de un minuto, reduce la difusión de noticias falsas. No se trata de desconfiar de todo, sino de aprender a distinguir entre lo verificado y lo que solo parece verdadero.",
+    "enunciado": "Es incompatible con el texto afirmar que:",
+    "opciones": [
+     "muchas publicaciones se comparten por la emoción que generan.",
+     "toda la información de las redes sociales es falsa.",
+     "verificar una noticia puede tomar menos de un minuto.",
+     "conviene revisar quién publica una noticia.",
+     "hay que distinguir lo verificado de lo que solo lo parece."
+    ],
+    "correcta": 1,
+    "solucion": "El autor dice que 'no toda es confiable' y que 'no se trata de desconfiar de todo'.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upc-022",
+    "area": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "Las redes sociales nos ofrecen información en cantidades nunca vistas, pero no toda es confiable. Muchas publicaciones se comparten porque generan emoción, no porque sean ciertas. Por ello, antes de reenviar una noticia, conviene hacerse tres preguntas: ¿quién la publica?, ¿qué evidencia presenta? y ¿otras fuentes serias dicen lo mismo? Este hábito, que toma menos de un minuto, reduce la difusión de noticias falsas. No se trata de desconfiar de todo, sino de aprender a distinguir entre lo verificado y lo que solo parece verdadero.",
+    "enunciado": "Según el texto, una noticia que causa mucha indignación:",
+    "opciones": [
+     "es necesariamente falsa.",
+     "siempre viene de una fuente seria.",
+     "debe compartirse de inmediato.",
+     "no es necesariamente verdadera por generar emoción.",
+     "no puede verificarse."
+    ],
+    "correcta": 3,
+    "solucion": "El texto dice que muchas publicaciones se comparten 'porque generan emoción, no porque sean ciertas'.",
+    "fuente": "propia"
+   }
+  ],
+  "UPCH": [
+   {
+    "id": "upch-006",
+    "area": "Matemática",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 3; 6; 11; 18; 27; ...",
+    "opciones": [
+     "34",
+     "36",
+     "38",
+     "40",
+     "42"
+    ],
+    "correcta": 2,
+    "solucion": "Las diferencias son 3, 5, 7, 9, 11: 27 + 11 = 38.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-001",
+    "area": "Matemática",
+    "tema": "Ecuaciones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Resuelve: 5x − 7 = 2x + 8",
+    "opciones": [
+     "3",
+     "5",
+     "7",
+     "9",
+     "15"
+    ],
+    "correcta": 1,
+    "solucion": "3x = 15, x = 5.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-002",
+    "area": "Matemática",
+    "tema": "Porcentajes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "De 80 postulantes, el 35 % ingresó. ¿Cuántos NO ingresaron?",
+    "opciones": [
+     "28",
+     "45",
+     "48",
+     "52",
+     "56"
+    ],
+    "correcta": 3,
+    "solucion": "Ingresaron 0,35 × 80 = 28; no ingresaron 80 − 28 = 52.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-004",
+    "area": "Matemática",
+    "tema": "Sistemas de ecuaciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Si 2x + y = 11 y x − y = 1, ¿cuánto vale x + y?",
+    "opciones": [
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "correcta": 2,
+    "solucion": "Sumando: 3x = 12, x = 4; y = 3. x + y = 7.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-010",
+    "area": "Razonamiento Verbal",
+    "tema": "Oraciones incompletas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "La vacuna resultó ______: redujo los contagios en un 90 %.",
+    "opciones": [
+     "ineficaz",
+     "peligrosa",
+     "costosa",
+     "dudosa",
+     "eficaz"
+    ],
+    "correcta": 4,
+    "solucion": "Reducir los contagios en 90 % muestra que fue eficaz.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-008",
+    "area": "Razonamiento Verbal",
+    "tema": "Antónimos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Antónimo de HOSTIL:",
+    "opciones": [
+     "agresivo",
+     "severo",
+     "lejano",
+     "frío",
+     "amable"
+    ],
+    "correcta": 4,
+    "solucion": "Hostil es agresivo o enemigo; su opuesto es amable.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-007",
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Sinónimo de INOCUO:",
+    "opciones": [
+     "inofensivo",
+     "dañino",
+     "inútil",
+     "oculto",
+     "ingenuo"
+    ],
+    "correcta": 0,
+    "solucion": "Inocuo es lo que no hace daño: inofensivo.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-011",
+    "area": "Comprensión Lectora",
+    "tema": "Idea principal",
+    "dificultad": 2,
+    "texto": "El agua cubre más del 70 % de la superficie del planeta, pero solo una pequeña parte es agua dulce disponible para el consumo. En el Perú, la mayoría de la población vive en la costa, una zona desértica, mientras que la mayor parte del agua dulce escurre hacia la vertiente amazónica. Esta desigualdad obliga a cuidar especialmente los ríos costeños y a invertir en tecnologías como la reutilización de aguas tratadas. Para los especialistas, el problema no es solo la cantidad de agua, sino cómo se distribuye y cómo se usa.",
+    "enunciado": "¿Cuál es la idea central del texto?",
+    "opciones": [
+     "El problema del agua en el Perú depende sobre todo de su distribución y de su uso.",
+     "En el Perú no hay agua dulce.",
+     "La Amazonía tiene poca agua.",
+     "El 70 % del planeta es agua dulce.",
+     "La reutilización de aguas tratadas es peligrosa."
+    ],
+    "correcta": 0,
+    "solucion": "El texto termina afirmando que el problema 'no es solo la cantidad de agua, sino cómo se distribuye y cómo se usa'.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-012",
+    "area": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "El agua cubre más del 70 % de la superficie del planeta, pero solo una pequeña parte es agua dulce disponible para el consumo. En el Perú, la mayoría de la población vive en la costa, una zona desértica, mientras que la mayor parte del agua dulce escurre hacia la vertiente amazónica. Esta desigualdad obliga a cuidar especialmente los ríos costeños y a invertir en tecnologías como la reutilización de aguas tratadas. Para los especialistas, el problema no es solo la cantidad de agua, sino cómo se distribuye y cómo se usa.",
+    "enunciado": "Del texto se deduce que la costa peruana:",
+    "opciones": [
+     "tiene más agua dulce que la Amazonía.",
+     "concentra a mucha población con poca agua disponible.",
+     "no necesita tecnologías de reutilización.",
+     "recibe la mayor parte del agua que escurre de los Andes.",
+     "no tiene ríos."
+    ],
+    "correcta": 1,
+    "solucion": "La mayoría vive en la costa desértica y la mayor parte del agua va a la vertiente amazónica.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-013",
+    "area": "Biología",
+    "tema": "Célula",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿En qué organelo se produce la mayor parte del ATP de una célula eucariota?",
+    "opciones": [
+     "ribosoma",
+     "núcleo",
+     "aparato de Golgi",
+     "lisosoma",
+     "mitocondria"
+    ],
+    "correcta": 4,
+    "solucion": "La respiración celular aeróbica, que genera la mayor parte del ATP, ocurre en la mitocondria.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-015",
+    "area": "Biología",
+    "tema": "Fotosíntesis",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "En las células vegetales, la fotosíntesis ocurre en:",
+    "opciones": [
+     "la mitocondria",
+     "el cloroplasto",
+     "la vacuola",
+     "el núcleo",
+     "la pared celular"
+    ],
+    "correcta": 1,
+    "solucion": "El cloroplasto contiene la clorofila que capta la luz para la fotosíntesis.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-014",
+    "area": "Biología",
+    "tema": "Genética molecular",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Qué molécula lleva la información genética del núcleo a los ribosomas?",
+    "opciones": [
+     "ARN mensajero",
+     "ARN de transferencia",
+     "ADN",
+     "ARN ribosomal",
+     "ATP"
+    ],
+    "correcta": 0,
+    "solucion": "El ARN mensajero se transcribe a partir del ADN y lleva el mensaje al ribosoma para la síntesis de proteínas.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-016",
+    "area": "Biología",
+    "tema": "Sangre",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Qué elementos de la sangre participan principalmente en la coagulación?",
+    "opciones": [
+     "eritrocitos",
+     "linfocitos",
+     "monocitos",
+     "neutrófilos",
+     "plaquetas"
+    ],
+    "correcta": 4,
+    "solucion": "Las plaquetas forman el tapón y activan la coagulación.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-017",
+    "area": "Biología",
+    "tema": "Genética",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuántos cromosomas tiene una célula somática humana normal?",
+    "opciones": [
+     "23",
+     "44",
+     "46",
+     "48",
+     "92"
+    ],
+    "correcta": 2,
+    "solucion": "Las células somáticas humanas son diploides: 23 pares, es decir, 46 cromosomas.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-018",
+    "area": "Química",
+    "tema": "Estructura atómica",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "El número atómico (Z) de un elemento indica su número de:",
+    "opciones": [
+     "protones",
+     "neutrones",
+     "nucleones",
+     "electrones de valencia",
+     "isótopos"
+    ],
+    "correcta": 0,
+    "solucion": "Z es la cantidad de protones del núcleo.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-021",
+    "area": "Química",
+    "tema": "Mol",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Cuántos moles hay en 88 g de CO₂? Datos: C = 12, O = 16.",
+    "opciones": [
+     "0,5",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "correcta": 2,
+    "solucion": "Masa molar del CO₂ = 12 + 2 × 16 = 44 g/mol; 88 ÷ 44 = 2 mol.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-019",
+    "area": "Química",
+    "tema": "Masa molar",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es la masa molar del agua (H₂O)? Datos: H = 1, O = 16.",
+    "opciones": [
+     "10 g/mol",
+     "16 g/mol",
+     "17 g/mol",
+     "18 g/mol",
+     "20 g/mol"
+    ],
+    "correcta": 3,
+    "solucion": "2 × 1 + 16 = 18 g/mol.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-022",
+    "area": "Física",
+    "tema": "Cinemática (MRUV)",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un auto parte del reposo con aceleración constante de 2 m/s². ¿Qué velocidad tiene a los 5 s?",
+    "opciones": [
+     "2 m/s",
+     "5 m/s",
+     "7 m/s",
+     "10 m/s",
+     "25 m/s"
+    ],
+    "correcta": 3,
+    "solucion": "v = v₀ + at = 0 + 2 × 5 = 10 m/s.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-024",
+    "area": "Física",
+    "tema": "Trabajo",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Una fuerza de 20 N desplaza un objeto 3 m en su misma dirección. ¿Qué trabajo realiza?",
+    "opciones": [
+     "6,7 J",
+     "17 J",
+     "23 J",
+     "60 J",
+     "600 J"
+    ],
+    "correcta": 3,
+    "solucion": "W = F · d = 20 × 3 = 60 J.",
+    "fuente": "propia"
+   },
+   {
+    "id": "upch-023",
+    "area": "Física",
+    "tema": "Dinámica",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es el peso de una persona de 50 kg? (g = 10 m/s²)",
+    "opciones": [
+     "5 N",
+     "50 N",
+     "60 N",
+     "500 N",
+     "5 000 N"
+    ],
+    "correcta": 3,
+    "solucion": "P = mg = 50 × 10 = 500 N.",
+    "fuente": "propia"
+   }
+  ]
+ }
+}

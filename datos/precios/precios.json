@@ -1,0 +1,178 @@
+{
+  "actualizado": "2026-10-13 18:30:05",
+  "moneda": "PEN",
+  "recargos": {
+    "presencial_hora": 10.0,
+    "domicilio_hora": 15.0
+  },
+  "niveles": {
+    "escolar": [
+      {
+        "id": "esc-hora",
+        "producto": "Hora suelta",
+        "horas": 1.0,
+        "alumnos_max": 1,
+        "precio": 40.0,
+        "precio_hora": 40.0,
+        "notas": ""
+      },
+      {
+        "id": "esc-pack8",
+        "producto": "Pack 8 horas",
+        "horas": 8.0,
+        "alumnos_max": 1,
+        "precio": 280.0,
+        "precio_hora": 35.0,
+        "notas": "1 mes · 2 h por semana"
+      },
+      {
+        "id": "esc-pack16",
+        "producto": "Pack 16 horas",
+        "horas": 16.0,
+        "alumnos_max": 1,
+        "precio": 512.0,
+        "precio_hora": 32.0,
+        "notas": "1 mes · 4 h por semana"
+      },
+      {
+        "id": "esc-g3",
+        "producto": "Grupo 2-3 alumnos (por alumno)",
+        "horas": 1.0,
+        "alumnos_max": 3,
+        "precio": 28.0,
+        "precio_hora": 28.0,
+        "notas": "Precio por alumno por hora"
+      },
+      {
+        "id": "esc-g6",
+        "producto": "Grupo 4-6 alumnos (por alumno)",
+        "horas": 1.0,
+        "alumnos_max": 6,
+        "precio": 22.0,
+        "precio_hora": 22.0,
+        "notas": "Precio por alumno por hora"
+      }
+    ],
+    "pre": [
+      {
+        "id": "pre-hora",
+        "producto": "Hora suelta",
+        "horas": 1.0,
+        "alumnos_max": 1,
+        "precio": 50.0,
+        "precio_hora": 50.0,
+        "notas": ""
+      },
+      {
+        "id": "pre-pack12",
+        "producto": "Pack 12 horas",
+        "horas": 12.0,
+        "alumnos_max": 1,
+        "precio": 540.0,
+        "precio_hora": 45.0,
+        "notas": ""
+      },
+      {
+        "id": "pre-mensual",
+        "producto": "Programa mensual 24 horas",
+        "horas": 24.0,
+        "alumnos_max": 1,
+        "precio": 960.0,
+        "precio_hora": 40.0,
+        "notas": "Incluye simulacro y seguimiento"
+      },
+      {
+        "id": "pre-g3",
+        "producto": "Grupo 2-3 alumnos (por alumno)",
+        "horas": 1.0,
+        "alumnos_max": 3,
+        "precio": 35.0,
+        "precio_hora": 35.0,
+        "notas": "Precio por alumno por hora"
+      },
+      {
+        "id": "pre-g6",
+        "producto": "Grupo 4-6 alumnos (por alumno)",
+        "horas": 1.0,
+        "alumnos_max": 6,
+        "precio": 28.0,
+        "precio_hora": 28.0,
+        "notas": "Precio por alumno por hora"
+      }
+    ],
+    "universitario": [
+      {
+        "id": "uni-hora",
+        "producto": "Hora suelta",
+        "horas": 1.0,
+        "alumnos_max": 1,
+        "precio": 60.0,
+        "precio_hora": 60.0,
+        "notas": ""
+      },
+      {
+        "id": "uni-practica",
+        "producto": "Práctica",
+        "horas": 4.0,
+        "alumnos_max": 1,
+        "precio": 220.0,
+        "precio_hora": 55.0,
+        "notas": "1 práctica calificada"
+      },
+      {
+        "id": "uni-examen",
+        "producto": "Examen",
+        "horas": 8.0,
+        "alumnos_max": 1,
+        "precio": 400.0,
+        "precio_hora": 50.0,
+        "notas": "1 examen parcial o final"
+      },
+      {
+        "id": "uni-medio",
+        "producto": "Medio ciclo",
+        "horas": 16.0,
+        "alumnos_max": 1,
+        "precio": 760.0,
+        "precio_hora": 47.5,
+        "notas": "2 prácticas + 1 examen"
+      },
+      {
+        "id": "uni-ciclo",
+        "producto": "Ciclo completo",
+        "horas": 32.0,
+        "alumnos_max": 1,
+        "precio": 1440.0,
+        "precio_hora": 45.0,
+        "notas": "4 prácticas + 2 exámenes"
+      },
+      {
+        "id": "uni-g3",
+        "producto": "Grupo 2-3 alumnos (por alumno)",
+        "horas": 1.0,
+        "alumnos_max": 3,
+        "precio": 40.0,
+        "precio_hora": 40.0,
+        "notas": "Precio por alumno por hora"
+      },
+      {
+        "id": "uni-g6",
+        "producto": "Grupo 4-6 alumnos (por alumno)",
+        "horas": 1.0,
+        "alumnos_max": 6,
+        "precio": 32.0,
+        "precio_hora": 32.0,
+        "notas": "Precio por alumno por hora"
+      },
+      {
+        "id": "uni-taller",
+        "producto": "Taller intensivo pre-examen (por alumno)",
+        "horas": 3.0,
+        "alumnos_max": 15,
+        "precio": 49.0,
+        "precio_hora": 16.33,
+        "notas": "Repaso final · grupo abierto"
+      }
+    ]
+  }
+}

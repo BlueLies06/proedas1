@@ -1,0 +1,19 @@
+id,nivel,producto,horas,alumnos_min,alumnos_max,precio_virtual,pago_tutor_hora,activo,notas
+esc-hora,escolar,Hora suelta,1,1,1,40,20,si,
+esc-pack8,escolar,Pack 8 horas,8,1,1,280,20,si,1 mes · 2 h por semana
+esc-pack16,escolar,Pack 16 horas,16,1,1,512,20,si,1 mes · 4 h por semana
+pre-hora,pre,Hora suelta,1,1,1,50,25,si,
+pre-pack12,pre,Pack 12 horas,12,1,1,540,25,si,
+pre-mensual,pre,Programa mensual 24 horas,24,1,1,960,25,si,Incluye simulacro y seguimiento
+uni-hora,universitario,Hora suelta,1,1,1,60,30,si,
+uni-practica,universitario,Práctica,4,1,1,220,30,si,1 práctica calificada
+uni-examen,universitario,Examen,8,1,1,400,30,si,1 examen parcial o final
+uni-medio,universitario,Medio ciclo,16,1,1,760,30,si,2 prácticas + 1 examen
+uni-ciclo,universitario,Ciclo completo,32,1,1,1440,30,si,4 prácticas + 2 exámenes
+esc-g3,escolar,Grupo 2-3 alumnos (por alumno),1,2,3,28,20,si,Precio por alumno por hora
+esc-g6,escolar,Grupo 4-6 alumnos (por alumno),1,4,6,22,20,si,Precio por alumno por hora
+pre-g3,pre,Grupo 2-3 alumnos (por alumno),1,2,3,35,25,si,Precio por alumno por hora
+pre-g6,pre,Grupo 4-6 alumnos (por alumno),1,4,6,28,25,si,Precio por alumno por hora
+uni-g3,universitario,Grupo 2-3 alumnos (por alumno),1,2,3,40,30,si,Precio por alumno por hora
+uni-g6,universitario,Grupo 4-6 alumnos (por alumno),1,4,6,32,30,si,Precio por alumno por hora
+uni-taller,universitario,Taller intensivo pre-examen (por alumno),3,5,15,49,30,si,Repaso final · grupo abierto
