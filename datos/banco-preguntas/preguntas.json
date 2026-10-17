@@ -1,0 +1,2033 @@
+{
+ "version": "2026-10-13T18:46:27",
+ "universidades": {
+  "PUCP": [
+   {
+    "id": "PUCP-001",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 3; 7; 15; 31; ...",
+    "opciones": {
+     "A": "63",
+     "B": "64",
+     "C": "65",
+     "D": "72",
+     "E": "127"
+    },
+    "respuesta": "A",
+    "solucion": "Cada término es el anterior por 2 más 1: 31 × 2 + 1 = 63.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-002",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 2; 5; 10; 17; 26; ...",
+    "opciones": {
+     "A": "26",
+     "B": "31",
+     "C": "35",
+     "D": "36",
+     "E": "37"
+    },
+    "respuesta": "E",
+    "solucion": "Los términos son n² + 1 para n = 1, 2, 3...; el sexto es 6² + 1 = 37.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-003",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Magnitudes proporcionales",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Tres obreros hacen una obra en 12 días. Trabajando al mismo ritmo, ¿en cuántos días harían la misma obra 6 obreros?",
+    "opciones": {
+     "A": "3",
+     "B": "4",
+     "C": "6",
+     "D": "8",
+     "E": "24"
+    },
+    "respuesta": "C",
+    "solucion": "Obreros y días son inversamente proporcionales: 3 × 12 = 6 × d, entonces d = 6.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-004",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Porcentajes",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "El precio de un producto sube 20 % y luego baja 20 %. Respecto del precio inicial, el precio final:",
+    "opciones": {
+     "A": "no varía",
+     "B": "aumenta 4 %",
+     "C": "disminuye 4 %",
+     "D": "disminuye 2 %",
+     "E": "aumenta 2 %"
+    },
+    "respuesta": "C",
+    "solucion": "1,20 × 0,80 = 0,96: el precio final es 96 % del inicial, es decir, disminuye 4 %.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-005",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Edades",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Hace 5 años, la edad de Ana era el doble de la de Beto. Dentro de 5 años, sus edades sumarán 50 años. ¿Qué edad tiene Ana hoy?",
+    "opciones": {
+     "A": "20",
+     "B": "22",
+     "C": "25",
+     "D": "28",
+     "E": "30"
+    },
+    "respuesta": "C",
+    "solucion": "A − 5 = 2(B − 5) da A = 2B − 5. Además A + B + 10 = 50, así que A + B = 40. Entonces 3B − 5 = 40, B = 15 y A = 25.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-006",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Fracciones (trabajo)",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "El caño A llena un tanque en 6 horas y el caño B lo llena en 3 horas. Si se abren ambos a la vez con el tanque vacío, ¿en cuántas horas se llena?",
+    "opciones": {
+     "A": "1,5",
+     "B": "2",
+     "C": "2,5",
+     "D": "3",
+     "E": "4,5"
+    },
+    "respuesta": "B",
+    "solucion": "En una hora llenan 1/6 + 1/3 = 1/2 del tanque; el tanque completo se llena en 2 horas.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-007",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Probabilidades",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Se lanzan dos dados comunes. ¿Cuál es la probabilidad de que la suma de los resultados sea 7?",
+    "opciones": {
+     "A": "1/12",
+     "B": "1/9",
+     "C": "1/6",
+     "D": "7/36",
+     "E": "1/3"
+    },
+    "respuesta": "C",
+    "solucion": "Hay 36 resultados posibles y 6 suman 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Probabilidad 6/36 = 1/6.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-008",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Análisis combinatorio",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿De cuántas maneras distintas se pueden ordenar todas las letras de la palabra ASTRO?",
+    "opciones": {
+     "A": "24",
+     "B": "60",
+     "C": "100",
+     "D": "110",
+     "E": "120"
+    },
+    "respuesta": "E",
+    "solucion": "Son 5 letras distintas: 5! = 120.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-009",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Promedios",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "El promedio de cinco números es 18. Si se retira uno de ellos, el promedio de los cuatro restantes es 17. ¿Qué número se retiró?",
+    "opciones": {
+     "A": "22",
+     "B": "24",
+     "C": "26",
+     "D": "34",
+     "E": "68"
+    },
+    "respuesta": "A",
+    "solucion": "Suma de los cinco: 5 × 18 = 90. Suma de los cuatro: 4 × 17 = 68. Número retirado: 90 − 68 = 22.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-010",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Operadores",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Se define a ✱ b = 2a − b. Calcula (3 ✱ 1) ✱ 4.",
+    "opciones": {
+     "A": "2",
+     "B": "4",
+     "C": "5",
+     "D": "6",
+     "E": "8"
+    },
+    "respuesta": "D",
+    "solucion": "3 ✱ 1 = 6 − 1 = 5. Luego 5 ✱ 4 = 10 − 4 = 6.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-011",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Conjuntos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "En un aula de 40 alumnos, 25 estudian Matemática, 20 estudian Física y 8 no estudian ninguno de esos cursos. ¿Cuántos estudian ambos cursos?",
+    "opciones": {
+     "A": "5",
+     "B": "8",
+     "C": "10",
+     "D": "12",
+     "E": "13"
+    },
+    "respuesta": "E",
+    "solucion": "Estudian al menos uno: 40 − 8 = 32. Ambos: 25 + 20 − 32 = 13.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-012",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Móviles",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un auto recorre 180 km en 2 horas y 30 minutos. ¿Cuál es su velocidad media?",
+    "opciones": {
+     "A": "60 km/h",
+     "B": "72 km/h",
+     "C": "75 km/h",
+     "D": "80 km/h",
+     "E": "90 km/h"
+    },
+    "respuesta": "B",
+    "solucion": "2 h 30 min = 2,5 h. Velocidad = 180 ÷ 2,5 = 72 km/h.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-013",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Lógica",
+    "dificultad": 3,
+    "texto": null,
+    "enunciado": "Si todos los estudiantes de ASTROS son puntuales y algunos puntuales son deportistas, entonces es necesariamente cierto que:",
+    "opciones": {
+     "A": "algunos estudiantes de ASTROS son deportistas",
+     "B": "ningún estudiante de ASTROS es deportista",
+     "C": "todos los puntuales son estudiantes de ASTROS",
+     "D": "algunos puntuales son estudiantes de ASTROS",
+     "E": "todos los deportistas son puntuales"
+    },
+    "respuesta": "D",
+    "solucion": "Si todos los estudiantes de ASTROS son puntuales (y hay al menos uno), algunos puntuales son de ASTROS. Las demás no se pueden asegurar: los deportistas puntuales podrían no ser de ASTROS.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-014",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Álgebra",
+    "tema": "Ecuaciones lineales",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Resuelve: 2x + 3 = 5x − 9",
+    "opciones": {
+     "A": "2",
+     "B": "3",
+     "C": "4",
+     "D": "6",
+     "E": "12"
+    },
+    "respuesta": "C",
+    "solucion": "3 + 9 = 5x − 2x, entonces 12 = 3x y x = 4.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-015",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Aritmética",
+    "tema": "Porcentajes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuánto es el 30 % del 40 % de 500?",
+    "opciones": {
+     "A": "60",
+     "B": "70",
+     "C": "120",
+     "D": "150",
+     "E": "200"
+    },
+    "respuesta": "A",
+    "solucion": "40 % de 500 = 200; 30 % de 200 = 60.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-016",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Aritmética",
+    "tema": "Descuentos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Luego de un descuento del 20 %, un libro cuesta S/ 80. ¿Cuál era su precio original?",
+    "opciones": {
+     "A": "S/ 96",
+     "B": "S/ 100",
+     "C": "S/ 104",
+     "D": "S/ 110",
+     "E": "S/ 120"
+    },
+    "respuesta": "B",
+    "solucion": "80 es el 80 % del precio original: P = 80 ÷ 0,8 = 100.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-017",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Geometría",
+    "tema": "Áreas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un rectángulo tiene perímetro 30 cm y su largo es el doble de su ancho. ¿Cuál es su área?",
+    "opciones": {
+     "A": "25 cm²",
+     "B": "45 cm²",
+     "C": "50 cm²",
+     "D": "60 cm²",
+     "E": "72 cm²"
+    },
+    "respuesta": "C",
+    "solucion": "2(2a + a) = 30 da a = 5 y largo 10. Área = 5 × 10 = 50 cm².",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-018",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Álgebra",
+    "tema": "Leyes de exponentes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Simplifica: 2¹⁰ ÷ 2⁷",
+    "opciones": {
+     "A": "2",
+     "B": "4",
+     "C": "6",
+     "D": "7",
+     "E": "8"
+    },
+    "respuesta": "E",
+    "solucion": "2¹⁰ ÷ 2⁷ = 2³ = 8.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-019",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Álgebra",
+    "tema": "Sistemas de ecuaciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Si x + y = 10 y x − y = 4, ¿cuánto vale x · y?",
+    "opciones": {
+     "A": "16",
+     "B": "21",
+     "C": "24",
+     "D": "25",
+     "E": "30"
+    },
+    "respuesta": "B",
+    "solucion": "Sumando: 2x = 14, x = 7; luego y = 3. x · y = 21.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-020",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Álgebra",
+    "tema": "Productos notables",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Si a + b = 7 y a · b = 10, ¿cuánto vale a² + b²?",
+    "opciones": {
+     "A": "29",
+     "B": "39",
+     "C": "49",
+     "D": "59",
+     "E": "69"
+    },
+    "respuesta": "A",
+    "solucion": "a² + b² = (a + b)² − 2ab = 49 − 20 = 29.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-021",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Matemática Básica",
+    "curso": "Geometría",
+    "tema": "Teorema de Pitágoras",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Los catetos de un triángulo rectángulo miden 6 cm y 8 cm. ¿Cuánto mide la hipotenusa?",
+    "opciones": {
+     "A": "9 cm",
+     "B": "10 cm",
+     "C": "12 cm",
+     "D": "14 cm",
+     "E": "48 cm"
+    },
+    "respuesta": "B",
+    "solucion": "h² = 6² + 8² = 36 + 64 = 100, h = 10 cm.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "PUCP-022",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Idea principal",
+    "dificultad": 1,
+    "texto": "Durante años se creyó que dormir era tiempo perdido para el estudiante que se prepara para un examen. Sin embargo, diversas investigaciones muestran que, mientras dormimos, el cerebro reorganiza lo aprendido durante el día: fortalece las conexiones útiles y descarta información irrelevante. Por ello, quien sacrifica horas de sueño para estudiar más suele recordar menos al día siguiente. Esto no significa que basta con dormir para aprender; el sueño consolida lo que se estudió con atención, pero no puede fijar lo que nunca se comprendió. La recomendación, entonces, no es estudiar menos, sino distribuir el estudio en varios días y proteger el descanso, especialmente la noche previa a la evaluación.",
+    "enunciado": "¿Cuál es la idea principal del texto?",
+    "opciones": {
+     "A": "Dormir es más importante que estudiar antes de un examen.",
+     "B": "El sueño ayuda a consolidar lo aprendido, por lo que conviene distribuir el estudio y proteger el descanso.",
+     "C": "El cerebro descarta toda la información que se estudia de noche.",
+     "D": "Los estudiantes que duermen poco tienen más tiempo para aprender.",
+     "E": "Basta con dormir bien para aprender cualquier tema."
+    },
+    "respuesta": "B",
+    "solucion": "El texto explica que el sueño consolida lo aprendido y concluye recomendando distribuir el estudio y proteger el descanso. A y E exageran; C y D contradicen el texto.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-023",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "Durante años se creyó que dormir era tiempo perdido para el estudiante que se prepara para un examen. Sin embargo, diversas investigaciones muestran que, mientras dormimos, el cerebro reorganiza lo aprendido durante el día: fortalece las conexiones útiles y descarta información irrelevante. Por ello, quien sacrifica horas de sueño para estudiar más suele recordar menos al día siguiente. Esto no significa que basta con dormir para aprender; el sueño consolida lo que se estudió con atención, pero no puede fijar lo que nunca se comprendió. La recomendación, entonces, no es estudiar menos, sino distribuir el estudio en varios días y proteger el descanso, especialmente la noche previa a la evaluación.",
+    "enunciado": "Del texto se infiere que un estudiante que no entendió un tema:",
+    "opciones": {
+     "A": "lo recordará si duerme ocho horas.",
+     "B": "debe dejar de dormir para repasarlo.",
+     "C": "tiene que estudiarlo únicamente la noche anterior al examen.",
+     "D": "olvidará también los temas que sí comprendió.",
+     "E": "no lo fijará solo durmiendo; primero necesita comprenderlo."
+    },
+    "respuesta": "E",
+    "solucion": "El texto dice que el sueño 'no puede fijar lo que nunca se comprendió'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-024",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Incompatibilidad",
+    "dificultad": 2,
+    "texto": "Durante años se creyó que dormir era tiempo perdido para el estudiante que se prepara para un examen. Sin embargo, diversas investigaciones muestran que, mientras dormimos, el cerebro reorganiza lo aprendido durante el día: fortalece las conexiones útiles y descarta información irrelevante. Por ello, quien sacrifica horas de sueño para estudiar más suele recordar menos al día siguiente. Esto no significa que basta con dormir para aprender; el sueño consolida lo que se estudió con atención, pero no puede fijar lo que nunca se comprendió. La recomendación, entonces, no es estudiar menos, sino distribuir el estudio en varios días y proteger el descanso, especialmente la noche previa a la evaluación.",
+    "enunciado": "Es incompatible con lo que sostiene el autor afirmar que:",
+    "opciones": {
+     "A": "el sueño reorganiza lo aprendido durante el día.",
+     "B": "conviene estudiar en varios días.",
+     "C": "trasnochar estudiando garantiza un mejor rendimiento al día siguiente.",
+     "D": "el descanso es importante la noche previa a la evaluación.",
+     "E": "el cerebro descarta información irrelevante mientras dormimos."
+    },
+    "respuesta": "C",
+    "solucion": "El autor afirma que quien sacrifica horas de sueño 'suele recordar menos al día siguiente'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-025",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Tema central",
+    "dificultad": 1,
+    "texto": "Muchas personas piensan que reciclar es la solución principal al problema de los residuos. No obstante, el reciclaje es solo la última de varias estrategias. Antes de reciclar, conviene reducir lo que consumimos y reutilizar lo que ya tenemos, pues todo proceso de reciclaje requiere energía, transporte y agua. Una botella que se reutiliza diez veces evita fabricar nueve botellas nuevas; una botella reciclada, en cambio, debe ser recolectada, limpiada, triturada y fundida. Por eso, los especialistas sostienen que una ciudad que recicla mucho pero consume sin control no es necesariamente una ciudad sostenible.",
+    "enunciado": "¿Cuál es el tema central del texto?",
+    "opciones": {
+     "A": "La historia del reciclaje de botellas.",
+     "B": "El reciclaje como una estrategia más, posterior a reducir y reutilizar.",
+     "C": "El consumo de agua en las ciudades.",
+     "D": "Las ventajas de fabricar botellas nuevas.",
+     "E": "La prohibición de reciclar en las ciudades."
+    },
+    "respuesta": "B",
+    "solucion": "El texto sostiene que el reciclaje es 'solo la última de varias estrategias', después de reducir y reutilizar.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-026",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Sentido contextual",
+    "dificultad": 2,
+    "texto": "Muchas personas piensan que reciclar es la solución principal al problema de los residuos. No obstante, el reciclaje es solo la última de varias estrategias. Antes de reciclar, conviene reducir lo que consumimos y reutilizar lo que ya tenemos, pues todo proceso de reciclaje requiere energía, transporte y agua. Una botella que se reutiliza diez veces evita fabricar nueve botellas nuevas; una botella reciclada, en cambio, debe ser recolectada, limpiada, triturada y fundida. Por eso, los especialistas sostienen que una ciudad que recicla mucho pero consume sin control no es necesariamente una ciudad sostenible.",
+    "enunciado": "En el texto, la palabra SOSTENIBLE se refiere a una ciudad que:",
+    "opciones": {
+     "A": "puede mantenerse en el tiempo sin agotar sus recursos.",
+     "B": "tiene muchas plantas de reciclaje.",
+     "C": "fabrica sus propias botellas.",
+     "D": "consume más de lo que produce.",
+     "E": "transporta sus residuos a otras ciudades."
+    },
+    "respuesta": "A",
+    "solucion": "El texto opone 'sostenible' a 'consumir sin control': se refiere a no agotar recursos en el tiempo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-027",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 3,
+    "texto": "Muchas personas piensan que reciclar es la solución principal al problema de los residuos. No obstante, el reciclaje es solo la última de varias estrategias. Antes de reciclar, conviene reducir lo que consumimos y reutilizar lo que ya tenemos, pues todo proceso de reciclaje requiere energía, transporte y agua. Una botella que se reutiliza diez veces evita fabricar nueve botellas nuevas; una botella reciclada, en cambio, debe ser recolectada, limpiada, triturada y fundida. Por eso, los especialistas sostienen que una ciudad que recicla mucho pero consume sin control no es necesariamente una ciudad sostenible.",
+    "enunciado": "Según el texto, reutilizar una botella es preferible a reciclarla porque:",
+    "opciones": {
+     "A": "las botellas recicladas no sirven.",
+     "B": "reciclar no requiere energía.",
+     "C": "una botella reciclada dura diez veces más.",
+     "D": "reutilizar está prohibido en muchas ciudades.",
+     "E": "evita los costos de energía, transporte y agua que exige reciclar."
+    },
+    "respuesta": "E",
+    "solucion": "El texto indica que reciclar requiere energía, transporte y agua, mientras que reutilizar evita fabricar botellas nuevas.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-028",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Redacción",
+    "curso": "Redacción",
+    "tema": "Conectores",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Elige el conector adecuado: «Estudió durante varios meses; ______, no alcanzó el puntaje mínimo.»",
+    "opciones": {
+     "A": "por lo tanto",
+     "B": "sin embargo",
+     "C": "es decir",
+     "D": "además",
+     "E": "por ejemplo"
+    },
+    "respuesta": "B",
+    "solucion": "Hay una relación de oposición entre estudiar mucho y no alcanzar el puntaje: 'sin embargo'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-029",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Redacción",
+    "curso": "Redacción",
+    "tema": "Puntuación",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Qué oración está correctamente puntuada?",
+    "opciones": {
+     "A": "María, estudia en la PUCP.",
+     "B": "Los alumnos, que llegaron tarde no rindieron el examen.",
+     "C": "Lima, la capital del Perú, tiene muchas universidades.",
+     "D": "Compré: lápices, cuadernos y reglas.",
+     "E": "Sin embargo los resultados, fueron buenos."
+    },
+    "respuesta": "C",
+    "solucion": "La aposición explicativa 'la capital del Perú' va entre comas. En A y E sobra la coma entre sujeto y verbo o está mal ubicada; en B falta cerrar el inciso; en D no van dos puntos tras el verbo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-030",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Redacción",
+    "curso": "Redacción",
+    "tema": "Tildación",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿En qué oración la tilde está bien empleada?",
+    "opciones": {
+     "A": "Él no sabe donde queda la biblioteca.",
+     "B": "¿Cuándo empieza el examen?",
+     "C": "Te lo dí ayer.",
+     "D": "El examen fué difícil.",
+     "E": "Quiero que me digas porqué no viniste."
+    },
+    "respuesta": "B",
+    "solucion": "'Cuándo' interrogativo lleva tilde. 'Dónde' debía tildarse en A (interrogativa indirecta); 'di' y 'fue' son monosílabos sin tilde; en E corresponde 'por qué'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-031",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Redacción",
+    "curso": "Redacción",
+    "tema": "Precisión léxica",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Reemplaza el verbo subrayado por uno más preciso: «El ministro DIJO su renuncia ayer.»",
+    "opciones": {
+     "A": "habló",
+     "B": "presentó",
+     "C": "hizo",
+     "D": "contó",
+     "E": "puso"
+    },
+    "respuesta": "B",
+    "solucion": "Una renuncia se 'presenta'. Los demás verbos son imprecisos o incorrectos en este contexto.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-032",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Redacción",
+    "curso": "Redacción",
+    "tema": "Eliminación de oraciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Señala la oración que debe eliminarse por no corresponder al tema: (I) El café es una de las bebidas más consumidas del mundo. (II) Su cultivo se concentra en zonas tropicales. (III) El Perú es uno de los principales exportadores de café orgánico. (IV) El té verde tiene antioxidantes. (V) La cosecha de café da trabajo a miles de familias.",
+    "opciones": {
+     "A": "I",
+     "B": "II",
+     "C": "III",
+     "D": "IV",
+     "E": "V"
+    },
+    "respuesta": "D",
+    "solucion": "Todas las oraciones tratan del café, excepto la IV, que habla del té verde.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "PUCP-033",
+    "examen": "Primera Opción / Evaluación del Talento",
+    "area": "Redacción",
+    "curso": "Redacción",
+    "tema": "Plan de redacción",
+    "dificultad": 3,
+    "texto": null,
+    "enunciado": "Ordena las ideas: (1) Finalmente, revisa tus errores para no repetirlos. (2) Primero, identifica los temas que más te cuestan. (3) Luego, practica con preguntas de exámenes anteriores. (4) Cómo preparar un simulacro eficaz. (5) Después, toma un simulacro cronometrado.",
+    "opciones": {
+     "A": "4-2-3-5-1",
+     "B": "2-3-5-1-4",
+     "C": "4-3-2-5-1",
+     "D": "4-2-5-3-1",
+     "E": "2-4-3-1-5"
+    },
+    "respuesta": "A",
+    "solucion": "El título (4) va primero y luego la secuencia marcada por los conectores: primero (2), luego (3), después (5), finalmente (1).",
+    "tiempo_seg": 75
+   }
+  ],
+  "ULIMA": [
+   {
+    "id": "ULIMA-001",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 1; 1; 2; 3; 5; 8; ...",
+    "opciones": {
+     "A": "11",
+     "B": "12",
+     "C": "13",
+     "D": "14",
+     "E": "21"
+    },
+    "respuesta": "C",
+    "solucion": "Cada término es la suma de los dos anteriores: 5 + 8 = 13.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-002",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 4; 9; 19; 39; ...",
+    "opciones": {
+     "A": "59",
+     "B": "69",
+     "C": "78",
+     "D": "79",
+     "E": "80"
+    },
+    "respuesta": "D",
+    "solucion": "Cada término es el anterior por 2 más 1: 39 × 2 + 1 = 79.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-003",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Edades",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un padre tiene 40 años y su hijo 10. ¿Dentro de cuántos años la edad del padre será el triple de la de su hijo?",
+    "opciones": {
+     "A": "5",
+     "B": "8",
+     "C": "10",
+     "D": "12",
+     "E": "15"
+    },
+    "respuesta": "A",
+    "solucion": "40 + x = 3(10 + x), entonces 40 + x = 30 + 3x y x = 5.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-004",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Porcentajes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "De 200 clientes de una tienda, el 60 % compra algo y, de ellos, el 25 % paga con Yape. ¿Cuántos clientes pagan con Yape?",
+    "opciones": {
+     "A": "25",
+     "B": "30",
+     "C": "40",
+     "D": "50",
+     "E": "60"
+    },
+    "respuesta": "B",
+    "solucion": "60 % de 200 = 120; 25 % de 120 = 30.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-005",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Calendarios",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Si hoy es lunes, ¿qué día de la semana será dentro de 100 días?",
+    "opciones": {
+     "A": "martes",
+     "B": "miércoles",
+     "C": "jueves",
+     "D": "viernes",
+     "E": "sábado"
+    },
+    "respuesta": "B",
+    "solucion": "100 = 7 × 14 + 2: avanzan 2 días desde el lunes, es decir, miércoles.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-006",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Conteo",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Cuántos números de dos cifras tienen sus dos cifras pares?",
+    "opciones": {
+     "A": "16",
+     "B": "20",
+     "C": "25",
+     "D": "40",
+     "E": "45"
+    },
+    "respuesta": "B",
+    "solucion": "Decenas: 2, 4, 6 u 8 (4 opciones; no puede ser 0). Unidades: 0, 2, 4, 6 u 8 (5 opciones). Total 4 × 5 = 20.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-007",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Mezclas",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Se mezclan 3 kg de café de S/ 20 el kg con 2 kg de café de S/ 30 el kg. ¿Cuál es el precio de un kilo de la mezcla?",
+    "opciones": {
+     "A": "S/ 22",
+     "B": "S/ 24",
+     "C": "S/ 25",
+     "D": "S/ 26",
+     "E": "S/ 28"
+    },
+    "respuesta": "B",
+    "solucion": "Costo total: 3 × 20 + 2 × 30 = 120 por 5 kg; 120 ÷ 5 = S/ 24.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-008",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Fracciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Gasté 1/3 de mi dinero y luego 1/4 de lo que me quedaba. Si aún tengo S/ 60, ¿cuánto tenía al inicio?",
+    "opciones": {
+     "A": "S/ 90",
+     "B": "S/ 100",
+     "C": "S/ 120",
+     "D": "S/ 144",
+     "E": "S/ 180"
+    },
+    "respuesta": "C",
+    "solucion": "Queda x · 2/3 · 3/4 = x/2 = 60, entonces x = 120.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-009",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Ordenamiento",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Ana es más alta que Bea; Carla es más baja que Bea; Diana es más alta que Ana. ¿Quién es la más baja?",
+    "opciones": {
+     "A": "Ana",
+     "B": "Bea",
+     "C": "Carla",
+     "D": "Diana",
+     "E": "No se puede saber"
+    },
+    "respuesta": "C",
+    "solucion": "Orden de mayor a menor: Diana, Ana, Bea, Carla.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-010",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Ecuación cuadrática",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es la suma de las raíces de x² − 5x + 6 = 0?",
+    "opciones": {
+     "A": "−5",
+     "B": "−1",
+     "C": "1",
+     "D": "5",
+     "E": "6"
+    },
+    "respuesta": "D",
+    "solucion": "x² − 5x + 6 = (x − 2)(x − 3): raíces 2 y 3, suma 5.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-011",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Funciones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Si f(x) = 3x − 2, ¿cuánto vale f(f(2))?",
+    "opciones": {
+     "A": "4",
+     "B": "8",
+     "C": "10",
+     "D": "12",
+     "E": "16"
+    },
+    "respuesta": "C",
+    "solucion": "f(2) = 4 y f(4) = 12 − 2 = 10.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-012",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Logaritmos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Calcula log₂ 32.",
+    "opciones": {
+     "A": "4",
+     "B": "5",
+     "C": "6",
+     "D": "8",
+     "E": "16"
+    },
+    "respuesta": "B",
+    "solucion": "2⁵ = 32, por lo tanto log₂ 32 = 5.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-013",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Matemática",
+    "curso": "Geometría",
+    "tema": "Círculo",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es el área de un círculo de radio 3 cm?",
+    "opciones": {
+     "A": "3π cm²",
+     "B": "6π cm²",
+     "C": "9π cm²",
+     "D": "12π cm²",
+     "E": "18π cm²"
+    },
+    "respuesta": "C",
+    "solucion": "Área = πr² = π · 3² = 9π cm².",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-014",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Matemática",
+    "curso": "Aritmética",
+    "tema": "Interés simple",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Qué interés simple generan S/ 1 000 al 5 % anual durante 3 años?",
+    "opciones": {
+     "A": "S/ 50",
+     "B": "S/ 100",
+     "C": "S/ 150",
+     "D": "S/ 157,63",
+     "E": "S/ 300"
+    },
+    "respuesta": "C",
+    "solucion": "I = C · r · t = 1 000 × 0,05 × 3 = S/ 150.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "ULIMA-015",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Sinónimos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Sinónimo de EFÍMERO:",
+    "opciones": {
+     "A": "eterno",
+     "B": "oscuro",
+     "C": "enorme",
+     "D": "valiente",
+     "E": "pasajero"
+    },
+    "respuesta": "E",
+    "solucion": "Efímero significa que dura poco: pasajero.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-016",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Antónimos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Antónimo de ESCASO:",
+    "opciones": {
+     "A": "abundante",
+     "B": "poco",
+     "C": "raro",
+     "D": "pobre",
+     "E": "breve"
+    },
+    "respuesta": "A",
+    "solucion": "Escaso es lo que hay en poca cantidad; su opuesto es abundante.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-017",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Analogías",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "LIBRO : BIBLIOTECA ::",
+    "opciones": {
+     "A": "letra : palabra",
+     "B": "pintor : pincel",
+     "C": "hoja : árbol",
+     "D": "vaso : agua",
+     "E": "cuadro : museo"
+    },
+    "respuesta": "E",
+    "solucion": "Relación objeto : lugar donde se guarda y exhibe. Igual que el cuadro en el museo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-018",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Oraciones incompletas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "A pesar de su ______, logró terminar la maratón.",
+    "opciones": {
+     "A": "cansancio",
+     "B": "alegría",
+     "C": "velocidad",
+     "D": "éxito",
+     "E": "entusiasmo"
+    },
+    "respuesta": "A",
+    "solucion": "'A pesar de' introduce un obstáculo: el cansancio.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-019",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Término excluido",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Señala el término que no pertenece al grupo:",
+    "opciones": {
+     "A": "rojo",
+     "B": "azul",
+     "C": "verde",
+     "D": "redondo",
+     "E": "amarillo"
+    },
+    "respuesta": "D",
+    "solucion": "Todos son colores excepto 'redondo', que es una forma.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-020",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Idea principal",
+    "dificultad": 1,
+    "texto": "La anchoveta es un pez pequeño, pero su importancia para el Perú es enorme. Gracias a la corriente de Humboldt, de aguas frías y ricas en nutrientes, el mar peruano alberga una de las mayores poblaciones de este pez en el mundo. La mayor parte de la captura se destina a producir harina y aceite de pescado, que se exportan para alimentar animales de granja y peces de criadero. Sin embargo, solo una pequeña fracción llega a la mesa de los peruanos, a pesar de que la anchoveta es barata y muy nutritiva. Diversas campañas han intentado cambiar esta situación, aunque los hábitos alimentarios cambian lentamente.",
+    "enunciado": "¿Cuál es la idea principal del texto?",
+    "opciones": {
+     "A": "La corriente de Humboldt es fría y rica en nutrientes.",
+     "B": "Las campañas de consumo de anchoveta fueron un éxito.",
+     "C": "Los peruanos no comen pescado.",
+     "D": "La harina de pescado alimenta a los animales de granja.",
+     "E": "La anchoveta es muy importante para el Perú, pero se usa sobre todo para exportar harina y aceite y poco para el consumo humano."
+    },
+    "respuesta": "E",
+    "solucion": "El texto presenta la importancia de la anchoveta y el contraste entre su uso industrial y su poco consumo directo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-021",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "La anchoveta es un pez pequeño, pero su importancia para el Perú es enorme. Gracias a la corriente de Humboldt, de aguas frías y ricas en nutrientes, el mar peruano alberga una de las mayores poblaciones de este pez en el mundo. La mayor parte de la captura se destina a producir harina y aceite de pescado, que se exportan para alimentar animales de granja y peces de criadero. Sin embargo, solo una pequeña fracción llega a la mesa de los peruanos, a pesar de que la anchoveta es barata y muy nutritiva. Diversas campañas han intentado cambiar esta situación, aunque los hábitos alimentarios cambian lentamente.",
+    "enunciado": "Se infiere del texto que, si la corriente de Humboldt se debilitara:",
+    "opciones": {
+     "A": "probablemente disminuiría la población de anchoveta.",
+     "B": "aumentaría el consumo de anchoveta en el Perú.",
+     "C": "la anchoveta sería más cara que la carne.",
+     "D": "se dejaría de exportar harina de pescado de inmediato.",
+     "E": "las campañas de consumo tendrían éxito."
+    },
+    "respuesta": "A",
+    "solucion": "El texto atribuye la gran población de anchoveta a las aguas frías y nutritivas de esa corriente.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "ULIMA-022",
+    "examen": "Examen de Escolares / Egresados",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Sentido contextual",
+    "dificultad": 1,
+    "texto": "La anchoveta es un pez pequeño, pero su importancia para el Perú es enorme. Gracias a la corriente de Humboldt, de aguas frías y ricas en nutrientes, el mar peruano alberga una de las mayores poblaciones de este pez en el mundo. La mayor parte de la captura se destina a producir harina y aceite de pescado, que se exportan para alimentar animales de granja y peces de criadero. Sin embargo, solo una pequeña fracción llega a la mesa de los peruanos, a pesar de que la anchoveta es barata y muy nutritiva. Diversas campañas han intentado cambiar esta situación, aunque los hábitos alimentarios cambian lentamente.",
+    "enunciado": "En el texto, la palabra FRACCIÓN significa:",
+    "opciones": {
+     "A": "fragmento de roca",
+     "B": "número",
+     "C": "división",
+     "D": "parte",
+     "E": "quebrado"
+    },
+    "respuesta": "D",
+    "solucion": "'Una pequeña fracción llega a la mesa' quiere decir una pequeña parte de la captura.",
+    "tiempo_seg": 75
+   }
+  ],
+  "UPC": [
+   {
+    "id": "UPC-001",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 5; 10; 8; 16; 14; ...",
+    "opciones": {
+     "A": "12",
+     "B": "18",
+     "C": "24",
+     "D": "28",
+     "E": "30"
+    },
+    "respuesta": "D",
+    "solucion": "Se alterna ×2 y −2: 14 × 2 = 28.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-002",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Proporcionalidad",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Si 4 cuadernos cuestan S/ 18, ¿cuánto cuestan 10 cuadernos?",
+    "opciones": {
+     "A": "S/ 36",
+     "B": "S/ 40",
+     "C": "S/ 45",
+     "D": "S/ 48",
+     "E": "S/ 54"
+    },
+    "respuesta": "C",
+    "solucion": "Cada cuaderno cuesta 18 ÷ 4 = 4,5; diez cuestan S/ 45.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-003",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Descuentos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un celular cuesta S/ 1 200 y tiene 15 % de descuento. ¿Cuál es el precio final?",
+    "opciones": {
+     "A": "S/ 1 020",
+     "B": "S/ 1 050",
+     "C": "S/ 1 080",
+     "D": "S/ 1 100",
+     "E": "S/ 1 180"
+    },
+    "respuesta": "A",
+    "solucion": "15 % de 1 200 = 180; 1 200 − 180 = S/ 1 020.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-004",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Promedio ponderado",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un curso se califica así: práctica 30 %, parcial 30 % y final 40 %. Si un alumno saca 12, 15 y 18 respectivamente, ¿cuál es su nota?",
+    "opciones": {
+     "A": "14,5",
+     "B": "15",
+     "C": "15,3",
+     "D": "15,8",
+     "E": "16"
+    },
+    "respuesta": "C",
+    "solucion": "0,3 × 12 + 0,3 × 15 + 0,4 × 18 = 3,6 + 4,5 + 7,2 = 15,3.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-005",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Análisis de datos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Una tienda vendió 120 unidades en enero, 150 en febrero y 180 en marzo. ¿En qué porcentaje aumentaron las ventas de enero a marzo?",
+    "opciones": {
+     "A": "20 %",
+     "B": "25 %",
+     "C": "30 %",
+     "D": "50 %",
+     "E": "60 %"
+    },
+    "respuesta": "D",
+    "solucion": "(180 − 120) ÷ 120 = 0,5, es decir, 50 %.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-006",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Móviles",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un ciclista avanza a 18 km/h. ¿Cuántos metros recorre en 10 minutos?",
+    "opciones": {
+     "A": "1 800 m",
+     "B": "2 400 m",
+     "C": "3 000 m",
+     "D": "3 600 m",
+     "E": "18 000 m"
+    },
+    "respuesta": "C",
+    "solucion": "18 km/h = 18 000 m en 60 min = 300 m por minuto; en 10 min, 3 000 m.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-007",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Probabilidades",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Una bolsa tiene 3 bolas rojas, 5 azules y 2 verdes. Si se saca una al azar, ¿cuál es la probabilidad de que NO sea azul?",
+    "opciones": {
+     "A": "1/5",
+     "B": "3/10",
+     "C": "1/2",
+     "D": "3/5",
+     "E": "7/10"
+    },
+    "respuesta": "C",
+    "solucion": "No azules: 3 + 2 = 5 de 10. Probabilidad 5/10 = 1/2.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-008",
+    "examen": "Evaluación Integral",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Ecuaciones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Resuelve: 3(x − 2) = x + 8",
+    "opciones": {
+     "A": "3",
+     "B": "5",
+     "C": "7",
+     "D": "9",
+     "E": "14"
+    },
+    "respuesta": "C",
+    "solucion": "3x − 6 = x + 8, entonces 2x = 14 y x = 7.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-009",
+    "examen": "Evaluación Integral",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Planteo",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Un plan de datos cuesta S/ 30 fijos más S/ 2 por cada GB adicional. Con S/ 50, ¿cuántos GB adicionales puedes comprar como máximo?",
+    "opciones": {
+     "A": "5",
+     "B": "8",
+     "C": "10",
+     "D": "12",
+     "E": "25"
+    },
+    "respuesta": "C",
+    "solucion": "30 + 2g ≤ 50, entonces g ≤ 10.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-010",
+    "examen": "Evaluación Integral",
+    "area": "Matemática",
+    "curso": "Geometría",
+    "tema": "Perímetro",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Se quiere cercar un terreno rectangular de 12 m por 8 m. ¿Cuántos metros de malla se necesitan?",
+    "opciones": {
+     "A": "20 m",
+     "B": "40 m",
+     "C": "48 m",
+     "D": "80 m",
+     "E": "96 m"
+    },
+    "respuesta": "B",
+    "solucion": "Perímetro = 2(12 + 8) = 40 m.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-011",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Regla de tres compuesta",
+    "dificultad": 3,
+    "texto": null,
+    "enunciado": "5 impresoras imprimen 400 hojas en 8 minutos. Al mismo ritmo, ¿cuántas hojas imprimen 2 impresoras en 20 minutos?",
+    "opciones": {
+     "A": "160",
+     "B": "200",
+     "C": "320",
+     "D": "400",
+     "E": "500"
+    },
+    "respuesta": "D",
+    "solucion": "Cada impresora imprime 400 ÷ (5 × 8) = 10 hojas por minuto. 2 × 20 × 10 = 400.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-012",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Números consecutivos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Las edades de tres hermanos son números consecutivos y suman 36. ¿Qué edad tiene el mayor?",
+    "opciones": {
+     "A": "11",
+     "B": "12",
+     "C": "13",
+     "D": "14",
+     "E": "15"
+    },
+    "respuesta": "C",
+    "solucion": "n + (n + 1) + (n + 2) = 36 da n = 11; el mayor tiene 13.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-013",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Matemático",
+    "curso": "Razonamiento Matemático",
+    "tema": "Lógica",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "«Si llueve, el partido se suspende». Se sabe que el partido NO se suspendió. Entonces:",
+    "opciones": {
+     "A": "llovió.",
+     "B": "no se puede concluir nada.",
+     "C": "el partido se jugó bajo la lluvia.",
+     "D": "el partido se suspendió.",
+     "E": "no llovió."
+    },
+    "respuesta": "E",
+    "solucion": "Si lloviera, se habría suspendido; como no se suspendió, no llovió (modus tollens).",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPC-014",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Sinónimos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Sinónimo de PERSPICAZ:",
+    "opciones": {
+     "A": "agudo",
+     "B": "lento",
+     "C": "perezoso",
+     "D": "confuso",
+     "E": "tímido"
+    },
+    "respuesta": "A",
+    "solucion": "Perspicaz es quien percibe y entiende con rapidez: agudo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-015",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Antónimos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Antónimo de DILIGENTE:",
+    "opciones": {
+     "A": "cuidadoso",
+     "B": "negligente",
+     "C": "rápido",
+     "D": "atento",
+     "E": "activo"
+    },
+    "respuesta": "B",
+    "solucion": "Diligente es cuidadoso y activo; lo opuesto es negligente.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-016",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Analogías",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "MÉDICO : HOSPITAL ::",
+    "opciones": {
+     "A": "chofer : pasajero",
+     "B": "alumno : cuaderno",
+     "C": "pan : panadero",
+     "D": "juez : ley",
+     "E": "docente : colegio"
+    },
+    "respuesta": "E",
+    "solucion": "Relación profesional : lugar donde trabaja.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-017",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Conectores",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Practicó todos los días; ______, mejoró su puntaje.",
+    "opciones": {
+     "A": "por eso",
+     "B": "no obstante",
+     "C": "aunque",
+     "D": "en cambio",
+     "E": "sin embargo"
+    },
+    "respuesta": "A",
+    "solucion": "La segunda idea es consecuencia de la primera: 'por eso'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-018",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Oraciones incompletas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "El informe era tan ______ que nadie pudo entender sus conclusiones.",
+    "opciones": {
+     "A": "claro",
+     "B": "confuso",
+     "C": "breve",
+     "D": "preciso",
+     "E": "interesante"
+    },
+    "respuesta": "B",
+    "solucion": "Que nadie lo entendiera indica que era confuso.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-019",
+    "examen": "Evaluación Integral",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Término excluido",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Señala el término que no pertenece al grupo:",
+    "opciones": {
+     "A": "martillo",
+     "B": "serrucho",
+     "C": "alicate",
+     "D": "destornillador",
+     "E": "cuaderno"
+    },
+    "respuesta": "E",
+    "solucion": "Todas son herramientas excepto el cuaderno.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-020",
+    "examen": "Evaluación Integral",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Propósito del autor",
+    "dificultad": 1,
+    "texto": "Las redes sociales nos ofrecen información en cantidades nunca vistas, pero no toda es confiable. Muchas publicaciones se comparten porque generan emoción, no porque sean ciertas. Por ello, antes de reenviar una noticia, conviene hacerse tres preguntas: ¿quién la publica?, ¿qué evidencia presenta? y ¿otras fuentes serias dicen lo mismo? Este hábito, que toma menos de un minuto, reduce la difusión de noticias falsas. No se trata de desconfiar de todo, sino de aprender a distinguir entre lo verificado y lo que solo parece verdadero.",
+    "enunciado": "¿Cuál es el propósito principal del autor?",
+    "opciones": {
+     "A": "Recomendar un hábito sencillo para verificar la información antes de compartirla.",
+     "B": "Prohibir el uso de redes sociales.",
+     "C": "Demostrar que toda noticia emotiva es falsa.",
+     "D": "Explicar cómo funcionan las redes sociales.",
+     "E": "Criticar a quienes publican noticias."
+    },
+    "respuesta": "A",
+    "solucion": "El texto propone tres preguntas para verificar antes de reenviar.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-021",
+    "examen": "Evaluación Integral",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Incompatibilidad",
+    "dificultad": 2,
+    "texto": "Las redes sociales nos ofrecen información en cantidades nunca vistas, pero no toda es confiable. Muchas publicaciones se comparten porque generan emoción, no porque sean ciertas. Por ello, antes de reenviar una noticia, conviene hacerse tres preguntas: ¿quién la publica?, ¿qué evidencia presenta? y ¿otras fuentes serias dicen lo mismo? Este hábito, que toma menos de un minuto, reduce la difusión de noticias falsas. No se trata de desconfiar de todo, sino de aprender a distinguir entre lo verificado y lo que solo parece verdadero.",
+    "enunciado": "Es incompatible con el texto afirmar que:",
+    "opciones": {
+     "A": "muchas publicaciones se comparten por la emoción que generan.",
+     "B": "toda la información de las redes sociales es falsa.",
+     "C": "verificar una noticia puede tomar menos de un minuto.",
+     "D": "conviene revisar quién publica una noticia.",
+     "E": "hay que distinguir lo verificado de lo que solo lo parece."
+    },
+    "respuesta": "B",
+    "solucion": "El autor dice que 'no toda es confiable' y que 'no se trata de desconfiar de todo'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPC-022",
+    "examen": "Evaluación Integral",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "Las redes sociales nos ofrecen información en cantidades nunca vistas, pero no toda es confiable. Muchas publicaciones se comparten porque generan emoción, no porque sean ciertas. Por ello, antes de reenviar una noticia, conviene hacerse tres preguntas: ¿quién la publica?, ¿qué evidencia presenta? y ¿otras fuentes serias dicen lo mismo? Este hábito, que toma menos de un minuto, reduce la difusión de noticias falsas. No se trata de desconfiar de todo, sino de aprender a distinguir entre lo verificado y lo que solo parece verdadero.",
+    "enunciado": "Según el texto, una noticia que causa mucha indignación:",
+    "opciones": {
+     "A": "es necesariamente falsa.",
+     "B": "siempre viene de una fuente seria.",
+     "C": "debe compartirse de inmediato.",
+     "D": "no es necesariamente verdadera por generar emoción.",
+     "E": "no puede verificarse."
+    },
+    "respuesta": "D",
+    "solucion": "El texto dice que muchas publicaciones se comparten 'porque generan emoción, no porque sean ciertas'.",
+    "tiempo_seg": 75
+   }
+  ],
+  "UPCH": [
+   {
+    "id": "UPCH-001",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Ecuaciones",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Resuelve: 5x − 7 = 2x + 8",
+    "opciones": {
+     "A": "3",
+     "B": "5",
+     "C": "7",
+     "D": "9",
+     "E": "15"
+    },
+    "respuesta": "B",
+    "solucion": "3x = 15, x = 5.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPCH-002",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Matemática",
+    "curso": "Aritmética",
+    "tema": "Porcentajes",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "De 80 postulantes, el 35 % ingresó. ¿Cuántos NO ingresaron?",
+    "opciones": {
+     "A": "28",
+     "B": "45",
+     "C": "48",
+     "D": "52",
+     "E": "56"
+    },
+    "respuesta": "D",
+    "solucion": "Ingresaron 0,35 × 80 = 28; no ingresaron 80 − 28 = 52.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPCH-003",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Leyes de exponentes",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Simplifica: (3²)³ ÷ 3⁴",
+    "opciones": {
+     "A": "3",
+     "B": "9",
+     "C": "27",
+     "D": "81",
+     "E": "243"
+    },
+    "respuesta": "B",
+    "solucion": "(3²)³ = 3⁶; 3⁶ ÷ 3⁴ = 3² = 9.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPCH-004",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Matemática",
+    "curso": "Álgebra",
+    "tema": "Sistemas de ecuaciones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Si 2x + y = 11 y x − y = 1, ¿cuánto vale x + y?",
+    "opciones": {
+     "A": "5",
+     "B": "6",
+     "C": "7",
+     "D": "8",
+     "E": "9"
+    },
+    "respuesta": "C",
+    "solucion": "Sumando: 3x = 12, x = 4; y = 3. x + y = 7.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPCH-005",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Matemática",
+    "curso": "Aritmética",
+    "tema": "Proporcionalidad",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un jarabe se administra a razón de 5 mL por cada 10 kg de peso. ¿Qué dosis corresponde a un niño de 36 kg?",
+    "opciones": {
+     "A": "15 mL",
+     "B": "16 mL",
+     "C": "18 mL",
+     "D": "20 mL",
+     "E": "36 mL"
+    },
+    "respuesta": "C",
+    "solucion": "36 ÷ 10 × 5 = 18 mL.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPCH-006",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Matemática",
+    "curso": "Razonamiento Matemático",
+    "tema": "Sucesiones",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Halla el término que sigue: 3; 6; 11; 18; 27; ...",
+    "opciones": {
+     "A": "34",
+     "B": "36",
+     "C": "38",
+     "D": "40",
+     "E": "42"
+    },
+    "respuesta": "C",
+    "solucion": "Las diferencias son 3, 5, 7, 9, 11: 27 + 11 = 38.",
+    "tiempo_seg": 90
+   },
+   {
+    "id": "UPCH-007",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Sinónimos",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "Sinónimo de INOCUO:",
+    "opciones": {
+     "A": "inofensivo",
+     "B": "dañino",
+     "C": "inútil",
+     "D": "oculto",
+     "E": "ingenuo"
+    },
+    "respuesta": "A",
+    "solucion": "Inocuo es lo que no hace daño: inofensivo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-008",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Antónimos",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Antónimo de HOSTIL:",
+    "opciones": {
+     "A": "agresivo",
+     "B": "severo",
+     "C": "lejano",
+     "D": "frío",
+     "E": "amable"
+    },
+    "respuesta": "E",
+    "solucion": "Hostil es agresivo o enemigo; su opuesto es amable.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-009",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Analogías",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "CORAZÓN : SANGRE ::",
+    "opciones": {
+     "A": "bomba : agua",
+     "B": "pulmón : respirar",
+     "C": "ojo : ver",
+     "D": "hueso : calcio",
+     "E": "piel : sudor"
+    },
+    "respuesta": "A",
+    "solucion": "El corazón impulsa la sangre como una bomba impulsa el agua.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-010",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Razonamiento Verbal",
+    "curso": "Razonamiento Verbal",
+    "tema": "Oraciones incompletas",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "La vacuna resultó ______: redujo los contagios en un 90 %.",
+    "opciones": {
+     "A": "ineficaz",
+     "B": "peligrosa",
+     "C": "costosa",
+     "D": "dudosa",
+     "E": "eficaz"
+    },
+    "respuesta": "E",
+    "solucion": "Reducir los contagios en 90 % muestra que fue eficaz.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-011",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Idea principal",
+    "dificultad": 2,
+    "texto": "El agua cubre más del 70 % de la superficie del planeta, pero solo una pequeña parte es agua dulce disponible para el consumo. En el Perú, la mayoría de la población vive en la costa, una zona desértica, mientras que la mayor parte del agua dulce escurre hacia la vertiente amazónica. Esta desigualdad obliga a cuidar especialmente los ríos costeños y a invertir en tecnologías como la reutilización de aguas tratadas. Para los especialistas, el problema no es solo la cantidad de agua, sino cómo se distribuye y cómo se usa.",
+    "enunciado": "¿Cuál es la idea central del texto?",
+    "opciones": {
+     "A": "El problema del agua en el Perú depende sobre todo de su distribución y de su uso.",
+     "B": "En el Perú no hay agua dulce.",
+     "C": "La Amazonía tiene poca agua.",
+     "D": "El 70 % del planeta es agua dulce.",
+     "E": "La reutilización de aguas tratadas es peligrosa."
+    },
+    "respuesta": "A",
+    "solucion": "El texto termina afirmando que el problema 'no es solo la cantidad de agua, sino cómo se distribuye y cómo se usa'.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-012",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Comprensión Lectora",
+    "curso": "Comprensión Lectora",
+    "tema": "Inferencia",
+    "dificultad": 2,
+    "texto": "El agua cubre más del 70 % de la superficie del planeta, pero solo una pequeña parte es agua dulce disponible para el consumo. En el Perú, la mayoría de la población vive en la costa, una zona desértica, mientras que la mayor parte del agua dulce escurre hacia la vertiente amazónica. Esta desigualdad obliga a cuidar especialmente los ríos costeños y a invertir en tecnologías como la reutilización de aguas tratadas. Para los especialistas, el problema no es solo la cantidad de agua, sino cómo se distribuye y cómo se usa.",
+    "enunciado": "Del texto se deduce que la costa peruana:",
+    "opciones": {
+     "A": "tiene más agua dulce que la Amazonía.",
+     "B": "concentra a mucha población con poca agua disponible.",
+     "C": "no necesita tecnologías de reutilización.",
+     "D": "recibe la mayor parte del agua que escurre de los Andes.",
+     "E": "no tiene ríos."
+    },
+    "respuesta": "B",
+    "solucion": "La mayoría vive en la costa desértica y la mayor parte del agua va a la vertiente amazónica.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-013",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Biología",
+    "curso": "Biología",
+    "tema": "Célula",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿En qué organelo se produce la mayor parte del ATP de una célula eucariota?",
+    "opciones": {
+     "A": "ribosoma",
+     "B": "núcleo",
+     "C": "aparato de Golgi",
+     "D": "lisosoma",
+     "E": "mitocondria"
+    },
+    "respuesta": "E",
+    "solucion": "La respiración celular aeróbica, que genera la mayor parte del ATP, ocurre en la mitocondria.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-014",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Biología",
+    "curso": "Biología",
+    "tema": "Genética molecular",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Qué molécula lleva la información genética del núcleo a los ribosomas?",
+    "opciones": {
+     "A": "ARN mensajero",
+     "B": "ARN de transferencia",
+     "C": "ADN",
+     "D": "ARN ribosomal",
+     "E": "ATP"
+    },
+    "respuesta": "A",
+    "solucion": "El ARN mensajero se transcribe a partir del ADN y lleva el mensaje al ribosoma para la síntesis de proteínas.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-015",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Biología",
+    "curso": "Biología",
+    "tema": "Fotosíntesis",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "En las células vegetales, la fotosíntesis ocurre en:",
+    "opciones": {
+     "A": "la mitocondria",
+     "B": "el cloroplasto",
+     "C": "la vacuola",
+     "D": "el núcleo",
+     "E": "la pared celular"
+    },
+    "respuesta": "B",
+    "solucion": "El cloroplasto contiene la clorofila que capta la luz para la fotosíntesis.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-016",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Biología",
+    "curso": "Biología",
+    "tema": "Sangre",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Qué elementos de la sangre participan principalmente en la coagulación?",
+    "opciones": {
+     "A": "eritrocitos",
+     "B": "linfocitos",
+     "C": "monocitos",
+     "D": "neutrófilos",
+     "E": "plaquetas"
+    },
+    "respuesta": "E",
+    "solucion": "Las plaquetas forman el tapón y activan la coagulación.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-017",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Biología",
+    "curso": "Biología",
+    "tema": "Genética",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuántos cromosomas tiene una célula somática humana normal?",
+    "opciones": {
+     "A": "23",
+     "B": "44",
+     "C": "46",
+     "D": "48",
+     "E": "92"
+    },
+    "respuesta": "C",
+    "solucion": "Las células somáticas humanas son diploides: 23 pares, es decir, 46 cromosomas.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-018",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Química",
+    "curso": "Química",
+    "tema": "Estructura atómica",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "El número atómico (Z) de un elemento indica su número de:",
+    "opciones": {
+     "A": "protones",
+     "B": "neutrones",
+     "C": "nucleones",
+     "D": "electrones de valencia",
+     "E": "isótopos"
+    },
+    "respuesta": "A",
+    "solucion": "Z es la cantidad de protones del núcleo.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-019",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Química",
+    "curso": "Química",
+    "tema": "Masa molar",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es la masa molar del agua (H₂O)? Datos: H = 1, O = 16.",
+    "opciones": {
+     "A": "10 g/mol",
+     "B": "16 g/mol",
+     "C": "17 g/mol",
+     "D": "18 g/mol",
+     "E": "20 g/mol"
+    },
+    "respuesta": "D",
+    "solucion": "2 × 1 + 16 = 18 g/mol.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-020",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Química",
+    "curso": "Química",
+    "tema": "Ácidos y bases",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "A 25 °C, una solución neutra tiene un pH de:",
+    "opciones": {
+     "A": "0",
+     "B": "1",
+     "C": "7",
+     "D": "10",
+     "E": "14"
+    },
+    "respuesta": "C",
+    "solucion": "A 25 °C, [H⁺] = [OH⁻] = 10⁻⁷ M, entonces pH = 7.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-021",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Química",
+    "curso": "Química",
+    "tema": "Mol",
+    "dificultad": 2,
+    "texto": null,
+    "enunciado": "¿Cuántos moles hay en 88 g de CO₂? Datos: C = 12, O = 16.",
+    "opciones": {
+     "A": "0,5",
+     "B": "1",
+     "C": "2",
+     "D": "3",
+     "E": "4"
+    },
+    "respuesta": "C",
+    "solucion": "Masa molar del CO₂ = 12 + 2 × 16 = 44 g/mol; 88 ÷ 44 = 2 mol.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-022",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Física",
+    "curso": "Física",
+    "tema": "Cinemática (MRUV)",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Un auto parte del reposo con aceleración constante de 2 m/s². ¿Qué velocidad tiene a los 5 s?",
+    "opciones": {
+     "A": "2 m/s",
+     "B": "5 m/s",
+     "C": "7 m/s",
+     "D": "10 m/s",
+     "E": "25 m/s"
+    },
+    "respuesta": "D",
+    "solucion": "v = v₀ + at = 0 + 2 × 5 = 10 m/s.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-023",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Física",
+    "curso": "Física",
+    "tema": "Dinámica",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "¿Cuál es el peso de una persona de 50 kg? (g = 10 m/s²)",
+    "opciones": {
+     "A": "5 N",
+     "B": "50 N",
+     "C": "60 N",
+     "D": "500 N",
+     "E": "5 000 N"
+    },
+    "respuesta": "D",
+    "solucion": "P = mg = 50 × 10 = 500 N.",
+    "tiempo_seg": 75
+   },
+   {
+    "id": "UPCH-024",
+    "examen": "Examen General (incluye Medicina)",
+    "area": "Física",
+    "curso": "Física",
+    "tema": "Trabajo",
+    "dificultad": 1,
+    "texto": null,
+    "enunciado": "Una fuerza de 20 N desplaza un objeto 3 m en su misma dirección. ¿Qué trabajo realiza?",
+    "opciones": {
+     "A": "6,7 J",
+     "B": "17 J",
+     "C": "23 J",
+     "D": "60 J",
+     "E": "600 J"
+    },
+    "respuesta": "D",
+    "solucion": "W = F · d = 20 × 3 = 60 J.",
+    "tiempo_seg": 75
+   }
+  ]
+ }
+}

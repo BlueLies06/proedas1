@@ -1,0 +1,7 @@
+regla,valor,descripcion
+recargo_presencial_hora,10,Soles extra por hora en clase presencial
+recargo_domicilio_hora,15,Soles extra por hora a domicilio (distritos cercanos)
+extra_tutor_por_alumno,5,Soles extra por hora al tutor por cada alumno adicional del grupo
+margen_minimo,0.33,Margen bruto mínimo aceptado (0.33 = 33 %)
+margen_alerta,0.38,Debajo de este margen se avisa pero no se bloquea
+clase_diagnostica_min,45,Minutos de la clase diagnóstica gratis
